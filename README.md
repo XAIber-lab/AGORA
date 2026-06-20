@@ -1,8 +1,7 @@
 ## AGORA
 AGORA: Human-Supervised Automated Recommendations for Cybersecurity Compliance Auditing
 
-Video Demo:
-[Watch the video](https://www.youtube.com/watch?v=3DvxDxg8y68)
+Video Demo: see supplemental material (hidden for double-blind review)
 
 List of Requirements Elicitation:
 [Requirements](AGORA_Requirements.pdf)
@@ -10,10 +9,17 @@ List of Requirements Elicitation:
 
 <table>
   <tr>
-    <td><img src="compliance_configuration.png" width="450"></td>
-    <td><img src="reporting_manager.png" width="450"></td>
+    <td>
+      <h3>Compliance Configuration</h3>
+      <img src="compliance_configuration.png" width="450">
+    </td>
+    <td>
+      <h3>Reporting Manager</h3>
+      <img src="reporting_manager.png" width="450">
+    </td>
   </tr>
 </table>
+
 
 # Extensive Use Case Descriptions:
 
@@ -85,6 +91,9 @@ To install necessary python dependencies.
 
 To install necessary JavaScript dependencies.
 
+### `echo 'GEMINI_API_KEY = "<YOUR_GEMINI_API_KEY>"' > src/backend/api_keys.py`
+
+Replace <YOUR_GEMINI_API_KEY> with your API key for Google GEMINI
 
 # Run the application
 
