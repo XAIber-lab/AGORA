@@ -1,0 +1,2 @@
+incident_id,missing_deviation,repetition_deviation,mismatch_deviation,total_missing_deviations,total_repetition_deviations,total_mismatch_deviations,missing_deviations_per_state,repetition_deviations_per_state,mismatch_deviations_per_state,total_deviations
+INC0000047,"{'N': 0, 'A': 0, 'W': 0, 'R': 0, 'C': 0}","{'N': 0, 'A': 4, 'W': 1, 'R': 0, 'C': 0}","{'N': 0, 'A': 0, 'W': 0, 'R': 0, 'C': 0}",0,5,0,"{'N': 0, 'A': 0, 'W': 0, 'R': 0, 'C': 0}","{'N': 0, 'A': 4, 'W': 1, 'R': 0, 'C': 0}","{'N': 0, 'A': 0, 'W': 0, 'R': 0, 'C': 0}",5

@@ -1,0 +1,223 @@
+.security-control-container {
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #1b1b1b;
+    display: flex;
+    margin-top: 12px;
+    width: 100%;
+    flex-direction: column;
+    font-size: 14px;
+    color: var(--White, #fff);
+    font-weight: 400;
+    line-height: 150%;
+    padding: 10px;
+    border: 1px solid rgba(36, 36, 36, 1);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.security-control-tags {
+    align-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 10px;
+    gap: 6px;
+    font-size: 10px;
+}
+
+.security-control-title {
+    font: 18px/27px Inter, sans-serif;
+}
+
+.security-control-description {
+    color: var(--for-sidebar-headings, #a1a1a1);
+    font-family: Inter, sans-serif;
+    line-height: 21px;
+}
+
+.security-control-header {
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+
+.security-control-footer {
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+
+.security-control-status {
+    color: var(--Text-2-colour, #696969);
+    font-family: Inter, sans-serif;
+}
+
+.security-control-operator {
+    color: white;
+    font-family: Inter, sans-serif;
+}
+
+.div-109 {
+    color: var(--Gray, #d0d0d0);
+    font-family: Inter, sans-serif;
+}
+
+.security-control-content {
+    transition: filter 0.3s ease;
+}
+
+.blurred {
+    filter: blur(4px);
+}
+
+.delete-option {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    z-index: 1;
+}
+
+.delete-option button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-option button:hover {
+    background-color: darkred;
+}
+
+
+.generate-assessment button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.generate-assessment button:hover {
+    background-color: darkblue;
+}
+
+.div-85 {
+    border-radius: var(--spacing-s, 10px);
+    background-color: #111;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.div-86 {
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+
+.div-87 {
+    justify-content: center;
+    display: flex;
+    gap: 14px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.div-88 {
+    border-radius: 100px;
+    background-color: #562cff;
+    width: 5px;
+    height: 21px;
+    margin: auto 0;
+}
+
+.div-89 {
+    justify-content: center;
+    display: flex;
+    gap: 6px;
+}
+
+.div-90 {
+    font-family: Inter, sans-serif;
+    align-items: center;
+    align-self: center;
+}
+
+.total-number-security-controls {
+    font-family: Inter, sans-serif;
+    border-radius: 100px;
+    background-color: #562cff;
+    align-self: start;
+    white-space: nowrap;
+    padding: 6px 14px;
+}
+
+.div-92 {
+    justify-content: center;
+    display: flex;
+    gap: 11px;
+    margin: auto 0;
+}
+
+.img-27,
+.img-28 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 20px;
+}
+
+.div-103 {
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #1b1b1b;
+    display: flex;
+    margin-top: 8px;
+    width: 100%;
+    flex-direction: column;
+    font-size: 14px;
+    color: var(--Gray, #d0d0d0);
+    font-weight: 400;
+    line-height: 150%;
+    padding: 10px;
+    border: 1px solid rgba(36, 36, 36, 1);
+    box-sizing: border-box;
+}
+
+.div-104 {
+    justify-content: space-between;
+    display: flex;
+    gap: 16px;
+}
+
+.div-105 {
+    font-family: Inter, sans-serif;
+}
+
+.security-control-status {
+    font-weight: bold;
+    /* Other existing styles */
+}
+
+.status-covered {
+    color: green;
+}
+
+.status-partially-covered {
+    color: orange;
+}
+
+.status-not-covered {
+    color: red;
+}

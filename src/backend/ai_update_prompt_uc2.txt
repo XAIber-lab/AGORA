@@ -1,0 +1,16 @@
+Now please reevaluate the current security control but be aware that certain tunings to the global compliance 
+configuration (environment variables) as well as explanation here have been provided. 
+Please only consider those if there is a direct applicability to the security control or the previous assessment. 
+First of all the applied compliance metric has been changed to non-compliance cost (cost) and the cost model with weights 
+per activity and costs per deviation type are provided within cost_function. Furthermore, repetitive detection deviations 
+do not reflect process errors but multiple triggers for the same technical activity such as mass service installs for the 
+same executable for example triggered by the same source user. Therefore, these repetitions can be considered handled in 
+a different case but the trigger occurred multiple times on multiple hosts. The threshold for those repetitive deviations of 
+detection has been tuned. Next, the N*RC variant (Detection (potentially multiple)-Resolution-Closure) is caused by temporary 
+merge rules, where for a specific incident as soon as there are new triggers, those are automatically merged to a leading case.
+No operator was manually involved or assigned to the merged incidents. Therefore, there is no error in the actual process and 
+those variants do not require further attention. Last, repetitive awaiting activities relate to incidents assigned to a 
+customer or third party side, where the actual security operators cannot take influence in incident handling. 
+These repetitive process deviations occur after resubmission times were exceeded and the incident was not 
+assigned back to the SOC operators or has been resolved. These cannot be considered as process harming deviations 
+since these are not in the security operator control. The threshold for repetitive awaiting activities has been tuned accordingly.

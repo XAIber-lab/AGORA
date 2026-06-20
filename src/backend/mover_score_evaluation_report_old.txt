@@ -1,0 +1,183 @@
+
+GT1 = [
+    'Active incidents decreased from 1963 to 451.',
+    'The decrease in active incidents suggests mass incidents or a resolved backlog.',
+    '323 closed incidents had high severity.',
+    '216 closed incidents had critical severity.',
+    'A mass closure of active incidents began on Friday, June 3.',
+    'Average process fitness was approximately 0.695.',
+    'The average SLA was very low with 44.43%.',
+    'Average time to resolve incidents was 15 days 3 hours 27 minutes.'
+]
+
+recommender results
+
+control_id,iteration,recommendation
+148,1,"The incident management process currently exhibits moderate overall compliance with an average fitness of 0.6948. However, a critically low SLA attainment rate of 44.43% reveals significant failures in meeting contractual obligations. While active incidents decreased positively from 1963 to 451, a substantial portion of the 1598 closed incidents show poor compliance, with 323 classified as High and 216 as Critical severity. Immediate remediation is required to improve SLA adherence and process compliance for these high and critical severity incidents. Additionally, the reported opening of only 5 new incidents during the period, contrasting sharply with the volume of active and closed cases, necessitates an investigation into data accuracy for incident creation."
+148,2,"The incident management process shows moderate compliance with an average fitness of 0.69. While active incidents decreased significantly from 1963 to 451, and 1598 incidents were closed (33.7% of which were high or critical severity), a critical concern is that only 44.43% of incidents met their SLA. Remediation must prioritize investigating the root causes for the low SLA adherence and the exceptionally high average resolution time of 21807.82 minutes to ensure contractual obligations are met."
+148,3,"The incident management process shows moderate compliance with an average fitness of 0.69, falling within the `>= 0.65 AND < 0.85` range. However, a significant concern is the low SLA adherence, with only 44.43% of incidents meeting their contractual obligations, despite a positive trend of active incidents decreasing from 1963 to 451 within the period. The closure of 323 high and 216 critical severity incidents, along with an average resolution time of approximately 15 days, suggests a need to investigate the reasons for SLA non-compliance, particularly for higher-severity incidents, to improve service delivery and meet contractual commitments."
+148,4,"The incident management process exhibits a concerningly low SLA adherence of 44.43%, despite achieving a moderate average process fitness of 0.69 during the period. Of the 1598 incidents closed, a significant 33.7% (540 incidents) were classified with high or critical process compliance severity, indicating substantial deviations from the reference model for these cases. While the number of active incidents decreased from 1963 to 451, Immediate remediation is required to investigate the root causes of the low SLA achievement and improve compliance, especially for incidents with high and critical severities."
+148,5,"During the period, active incidents significantly decreased from 1963 to 451, with 5 new incidents opened and 1598 incidents closed. The overall process compliance is moderate at 0.69 (within the 0.65-0.85 range), but a critical issue is that only 44.43% of incidents met their SLA, indicating a significant breach of contractual obligations. Among the closed incidents, 497 were low, 562 moderate, 323 high, and 216 critical in severity. Immediate remediation is required to improve SLA adherence, particularly for high and critical severity incidents, and to elevate process compliance above the moderate level."
+148,6,"The incident management compliance indicates significant issues for management oversight. Only 44.43% of incidents met SLA requirements, directly signaling a failure in meeting contractual obligations. While active incidents decreased from 1963 to 451 during the period, the average process fitness of 0.69 is only at a moderate compliance level, highlighting notable deviations from the defined reference model. Remediation efforts should prioritize improving SLA adherence and investigating the causes for moderate process compliance and the lengthy average time to resolve incidents (over 15 days)."
+148,7,"For the selected period, incident management shows a net decrease in active incidents from 1963 to 451, with only 5 new incidents recorded and 1598 incidents closed, categorized primarily as moderate (562) and low (497) severity. However, contractual obligations are severely unmet, as only 44.43% of incidents adhered to their SLA, and overall process fitness is moderate at 0.6948. Remediation is critically needed to investigate the root causes of low SLA performance and moderate process deviations to ensure compliance with policies and contractual commitments."
+148,8,"The incident management process demonstrates moderate compliance (fitness 0.69), but critically underperforms on contractual obligations with only 44.43% of SLAs met and an average resolution time exceeding 15 days (21807.82 minutes). A significant concern is that 0% of incidents were resolved by the assigned person, pointing to severe handoff issues, while 33.7% of closed incidents were of high or critical severity. Remediation must prioritize investigating and improving SLA attainment and reducing the average time to resolve by addressing process bottlenecks and ensuring better incident ownership. Additionally, clarify the 'opened incidents' metric for accurate new incident tracking within the reporting period, as only 5 new incidents are recorded against 1598 closed incidents."
+148,9,"The incident management compliance shows a moderate process fitness of 0.69, which is acceptable but leaves room for improvement. However, a critical concern is the low SLA adherence rate of only 44.43%, indicating that most incidents are not resolved within contractual obligations, with an average resolution time of approximately 15 days. Additionally, 33.7% of all incidents closed in the period (539 out of 1598) were of high or critical severity. Remediation must focus on identifying and resolving bottlenecks in the process that lead to prolonged resolution times, especially for high and critical incidents, to significantly improve SLA compliance."
+148,10,"For the reporting period, incident management shows a **moderate process fitness of 0.69**, indicating reasonable but improvable adherence to the reference model. A critical concern is the **low SLA achievement rate of 44.43%**, directly impacted by the **high average time to resolve incidents (21807.82 minutes or ~15.14 days)**. While only 5 new incidents were opened, active incidents significantly reduced from 1963 to 451, and 1598 incidents were closed, including 216 critical ones. Remediation should prioritize initiatives to analyze and optimize the resolution phase, particularly for moderate and critical incidents, to improve both process fitness and meet contractual SLA obligations."
+
+
+
+
+
+================================================================================
+BATCH FACT-CHECKING REPORT
+================================================================================
+
+ID: 148 | Iteration: 1
+----------------------------------------
+Fact: Active incidents decreased from 1963 to 451.  | Score: 0.5340 | ✅ FOUND
+Fact: The decrease in active incidents suggests mas | Score: 0.2418 | ❌ MISSED
+Fact: 323 closed incidents had high severity.       | Score: 0.5070 | ✅ FOUND
+Fact: 216 closed incidents had critical severity.   | Score: 0.3936 | ✅ FOUND
+Fact: A mass closure of active incidents began on F | Score: 0.0471 | ❌ MISSED
+Fact: Average process fitness was approximately 0.6 | Score: 0.3907 | ✅ FOUND
+Fact: The average SLA was very low with 44.43%.     | Score: 0.6022 | ✅ FOUND
+Fact: Average time to resolve incidents was 15 days | Score: 0.2580 | ❌ MISSED
+
+>> SUMMARY RESULT: 5/8 Facts Found (62.50% Coverage)
+
+================================================================================
+
+ID: 148 | Iteration: 2
+----------------------------------------
+Fact: Active incidents decreased from 1963 to 451.  | Score: 0.5525 | ✅ FOUND
+Fact: The decrease in active incidents suggests mas | Score: 0.2767 | ❌ MISSED
+Fact: 323 closed incidents had high severity.       | Score: 0.2025 | ❌ MISSED
+Fact: 216 closed incidents had critical severity.   | Score: 0.2044 | ❌ MISSED
+Fact: A mass closure of active incidents began on F | Score: 0.0418 | ❌ MISSED
+Fact: Average process fitness was approximately 0.6 | Score: 0.3825 | ✅ FOUND
+Fact: The average SLA was very low with 44.43%.     | Score: 0.4831 | ✅ FOUND
+Fact: Average time to resolve incidents was 15 days | Score: 0.2987 | ❌ MISSED
+
+>> SUMMARY RESULT: 3/8 Facts Found (37.50% Coverage)
+
+================================================================================
+
+ID: 148 | Iteration: 3
+----------------------------------------
+Fact: Active incidents decreased from 1963 to 451.  | Score: 0.5639 | ✅ FOUND
+Fact: The decrease in active incidents suggests mas | Score: 0.2662 | ❌ MISSED
+Fact: 323 closed incidents had high severity.       | Score: 0.3747 | ✅ FOUND
+Fact: 216 closed incidents had critical severity.   | Score: 0.6420 | ✅ FOUND
+Fact: A mass closure of active incidents began on F | Score: 0.0478 | ❌ MISSED
+Fact: Average process fitness was approximately 0.6 | Score: 0.3792 | ✅ FOUND
+Fact: The average SLA was very low with 44.43%.     | Score: 0.5187 | ✅ FOUND
+Fact: Average time to resolve incidents was 15 days | Score: 0.3466 | ❌ MISSED
+
+>> SUMMARY RESULT: 5/8 Facts Found (62.50% Coverage)
+
+================================================================================
+
+ID: 148 | Iteration: 4
+----------------------------------------
+Fact: Active incidents decreased from 1963 to 451.  | Score: 0.6720 | ✅ FOUND
+Fact: The decrease in active incidents suggests mas | Score: 0.2832 | ❌ MISSED
+Fact: 323 closed incidents had high severity.       | Score: 0.2165 | ❌ MISSED
+Fact: 216 closed incidents had critical severity.   | Score: 0.2039 | ❌ MISSED
+Fact: A mass closure of active incidents began on F | Score: 0.0415 | ❌ MISSED
+Fact: Average process fitness was approximately 0.6 | Score: 0.4087 | ✅ FOUND
+Fact: The average SLA was very low with 44.43%.     | Score: 0.5864 | ✅ FOUND
+Fact: Average time to resolve incidents was 15 days | Score: 0.2604 | ❌ MISSED
+
+>> SUMMARY RESULT: 3/8 Facts Found (37.50% Coverage)
+
+================================================================================
+
+ID: 148 | Iteration: 5
+----------------------------------------
+Fact: Active incidents decreased from 1963 to 451.  | Score: 0.6481 | ✅ FOUND
+Fact: The decrease in active incidents suggests mas | Score: 0.2267 | ❌ MISSED
+Fact: 323 closed incidents had high severity.       | Score: 0.3103 | ❌ MISSED
+Fact: 216 closed incidents had critical severity.   | Score: 0.3151 | ❌ MISSED
+Fact: A mass closure of active incidents began on F | Score: 0.0826 | ❌ MISSED
+Fact: Average process fitness was approximately 0.6 | Score: 0.3442 | ❌ MISSED
+Fact: The average SLA was very low with 44.43%.     | Score: 0.4452 | ✅ FOUND
+Fact: Average time to resolve incidents was 15 days | Score: 0.2758 | ❌ MISSED
+
+>> SUMMARY RESULT: 2/8 Facts Found (25.00% Coverage)
+
+================================================================================
+
+ID: 148 | Iteration: 6
+----------------------------------------
+Fact: Active incidents decreased from 1963 to 451.  | Score: 0.6637 | ✅ FOUND
+Fact: The decrease in active incidents suggests mas | Score: 0.2840 | ❌ MISSED
+Fact: 323 closed incidents had high severity.       | Score: 0.1971 | ❌ MISSED
+Fact: 216 closed incidents had critical severity.   | Score: 0.2107 | ❌ MISSED
+Fact: A mass closure of active incidents began on F | Score: 0.1027 | ❌ MISSED
+Fact: Average process fitness was approximately 0.6 | Score: 0.4300 | ✅ FOUND
+Fact: The average SLA was very low with 44.43%.     | Score: 0.4977 | ✅ FOUND
+Fact: Average time to resolve incidents was 15 days | Score: 0.2900 | ❌ MISSED
+
+>> SUMMARY RESULT: 3/8 Facts Found (37.50% Coverage)
+
+================================================================================
+
+ID: 148 | Iteration: 7
+----------------------------------------
+Fact: Active incidents decreased from 1963 to 451.  | Score: 0.5223 | ✅ FOUND
+Fact: The decrease in active incidents suggests mas | Score: 0.3382 | ❌ MISSED
+Fact: 323 closed incidents had high severity.       | Score: 0.2025 | ❌ MISSED
+Fact: 216 closed incidents had critical severity.   | Score: 0.1997 | ❌ MISSED
+Fact: A mass closure of active incidents began on F | Score: 0.0585 | ❌ MISSED
+Fact: Average process fitness was approximately 0.6 | Score: 0.4190 | ✅ FOUND
+Fact: The average SLA was very low with 44.43%.     | Score: 0.4610 | ✅ FOUND
+Fact: Average time to resolve incidents was 15 days | Score: 0.2694 | ❌ MISSED
+
+>> SUMMARY RESULT: 3/8 Facts Found (37.50% Coverage)
+
+================================================================================
+
+ID: 148 | Iteration: 8
+----------------------------------------
+Fact: Active incidents decreased from 1963 to 451.  | Score: 0.1091 | ❌ MISSED
+Fact: The decrease in active incidents suggests mas | Score: 0.2388 | ❌ MISSED
+Fact: 323 closed incidents had high severity.       | Score: 0.2232 | ❌ MISSED
+Fact: 216 closed incidents had critical severity.   | Score: 0.2197 | ❌ MISSED
+Fact: A mass closure of active incidents began on F | Score: 0.0184 | ❌ MISSED
+Fact: Average process fitness was approximately 0.6 | Score: 0.3204 | ❌ MISSED
+Fact: The average SLA was very low with 44.43%.     | Score: 0.5467 | ✅ FOUND
+Fact: Average time to resolve incidents was 15 days | Score: 0.3369 | ❌ MISSED
+
+>> SUMMARY RESULT: 1/8 Facts Found (12.50% Coverage)
+
+================================================================================
+
+ID: 148 | Iteration: 9
+----------------------------------------
+Fact: Active incidents decreased from 1963 to 451.  | Score: 0.1370 | ❌ MISSED
+Fact: The decrease in active incidents suggests mas | Score: 0.1858 | ❌ MISSED
+Fact: 323 closed incidents had high severity.       | Score: 0.2239 | ❌ MISSED
+Fact: 216 closed incidents had critical severity.   | Score: 0.2107 | ❌ MISSED
+Fact: A mass closure of active incidents began on F | Score: 0.0330 | ❌ MISSED
+Fact: Average process fitness was approximately 0.6 | Score: 0.4053 | ✅ FOUND
+Fact: The average SLA was very low with 44.43%.     | Score: 0.5191 | ✅ FOUND
+Fact: Average time to resolve incidents was 15 days | Score: 0.3590 | ✅ FOUND
+
+>> SUMMARY RESULT: 3/8 Facts Found (37.50% Coverage)
+
+================================================================================
+
+ID: 148 | Iteration: 10
+----------------------------------------
+Fact: Active incidents decreased from 1963 to 451.  | Score: 0.5671 | ✅ FOUND
+Fact: The decrease in active incidents suggests mas | Score: 0.2500 | ❌ MISSED
+Fact: 323 closed incidents had high severity.       | Score: 0.1987 | ❌ MISSED
+Fact: 216 closed incidents had critical severity.   | Score: 0.4667 | ✅ FOUND
+Fact: A mass closure of active incidents began on F | Score: 0.0719 | ❌ MISSED
+Fact: Average process fitness was approximately 0.6 | Score: 0.3991 | ✅ FOUND
+Fact: The average SLA was very low with 44.43%.     | Score: 0.6049 | ✅ FOUND
+Fact: Average time to resolve incidents was 15 days | Score: 0.2680 | ❌ MISSED
+
+>> SUMMARY RESULT: 4/8 Facts Found (50.00% Coverage)
+
+================================================================================

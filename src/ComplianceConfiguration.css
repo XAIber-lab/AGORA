@@ -1,0 +1,112 @@
+.compliance-config-container {
+  padding: 18px;
+  width: 84%;
+  height: 100%;
+  /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.compliance-config-container h2 {
+  margin: 0 0 12px 0;
+  color: #fff;
+}
+
+.placeholder-card {
+  background: #1b1b1b;
+  border: 1px solid #333;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.tiles-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.tile {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 12px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  /* Do not set flex here so rows can decide distribution explicitly */
+}
+
+.tile.large {
+  flex: 1 1 520px; /* larger tile takes more horizontal space */
+}
+
+.top-row {
+  display: flex;
+  gap: 12px;
+  align-items: stretch;
+  width: 100%;
+}
+
+.bottom-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  width: 100%;
+  /* Keep single-row layout; let tiles share available width equally */
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+/* Bottom-row tiles expand/shrink to fill available horizontal space evenly */
+.bottom-row .tile {
+  flex: 1 1 0%;
+  min-width: 0; /* allow them to shrink below content if needed */
+}
+
+/* Top row tile sizing: left (metric) fixed, right (cost) flexible */
+.top-row .tile,
+.top-row .tile.large {
+  height: 100%;
+}
+.top-row .tile:first-child {
+  flex: 0 0 320px;
+}
+.top-row .tile.large {
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
+.tile h3 {
+  margin: 0 0 8px 0;
+  color: #fff;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.field label {
+  font-size: 12px;
+  color: #bbb;
+  margin-bottom: 4px;
+}
+
+.field input, .field select, .json-editor {
+  background: #0f0f0f;
+  color: #eee;
+  border: 1px solid #333;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+
+.json-editor {
+  font-family: monospace;
+  width: 100%;
+}
+
+.muted {
+  color: #999;
+  font-size: 12px;
+}

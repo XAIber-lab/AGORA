@@ -1,0 +1,89 @@
+.incident-query-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.date-range-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.date-range-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+
+.date-label,
+.date-input {
+    font-size: 0.6em;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    width: 80px;
+    color: white;
+}
+
+.date-input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.date-range-slider {
+    width: 100%;
+}
+
+.result-section {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.progress-bar-full {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #333;
+    /* Adjust height if necessary */
+}
+
+.progress-bar {
+    background-color: #28a745;
+}
+
+.progress-bar-wrapper {
+    position: relative;
+}
+
+.progress-bar-wrapper::after {
+    content: attr(data-label);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.progress-bar-label {
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+    min-width: 50%;
+}
+
+.name {
+    font-family: Inter, sans-serif;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}

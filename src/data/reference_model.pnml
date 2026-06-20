@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml>
+  <net type="http://www.informatik.hu-berlin.de/top/pntd/ptNetb" id="noID">
+    <place id="p1">
+      <name>
+        <text>detection</text>
+      </name>
+      <graphics>
+        <position x="50" y="70"/>
+      </graphics>
+    </place>
+    <place id="p2">
+      <name>
+        <text>activation</text>
+      </name>
+      <graphics>
+        <position x="100" y="70"/>
+      </graphics>
+    </place>
+    <place id="p3">
+      <name>
+        <text>awaiting</text>
+      </name>
+      <graphics>
+        <position x="150" y="50"/>
+      </graphics>
+    </place>
+    <place id="p4">
+      <name>
+        <text>resolution</text>
+      </name>
+      <graphics>
+        <position x="200" y="70"/>
+      </graphics>
+    </place>
+    <place id="p5">
+      <name>
+        <text>closure</text>
+      </name>
+      <graphics>
+        <position x="250" y="70"/>
+      </graphics>
+    </place>
+    <arc id="a1" source="p1" target="p2"/>
+    <arc id="a2" source="p2" target="p3"/>
+    <arc id="a3" source="p3" target="p4"/>
+    <arc id="a4" source="p4" target="p5"/>
+    <arc id="a5" source="p2" target="p4"/>
+  </net>
+</pnml>

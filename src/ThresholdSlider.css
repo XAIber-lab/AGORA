@@ -1,0 +1,21 @@
+.threshold-slider-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.threshold-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.slider-row {
+    width: 100%;
+}
+
+

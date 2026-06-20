@@ -1,0 +1,7 @@
+{
+    'detection': 'N',
+    'activation': 'A',
+    'awaiting': 'W',
+    'resolution': 'R',
+    'closure': 'C',
+}

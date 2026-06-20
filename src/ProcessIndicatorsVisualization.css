@@ -1,0 +1,46 @@
+.visualization-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.layer-values {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5px;
+}
+
+.layer-row {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+/* Ensure that the layer-row stretches across the full available width */
+.full-width-trigger {
+    width: 100%;
+}
+
+/* Style for individual state columns inside the trigger */
+.state-column {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    color: white;
+    /* You can adjust this according to your theme */
+}
+
+/* Additional styles to make the collapsible sections look better */
+.name {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+/* Adjusting collapsible behavior */
+.rc-collapsible {
+    width: 100%;
+    padding: 10px;
+}

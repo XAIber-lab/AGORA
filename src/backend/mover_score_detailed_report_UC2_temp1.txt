@@ -1,0 +1,2013 @@
+====================================================================================================
+                                    ROBUSTNESS EVALUATION REPORT                                    
+====================================================================================================
+
+
+####################################################################################################
+### NEW CONTROL UNIT: 148 ###
+####################################################################################################
+
+
+>> STARTING ID: 148 | ITERATION: 1
+Fact 1: ✅ FOUND | Score: 0.8602
+  Ground Truth: Active incidents decreased from 1963 to 451.
+  Best Chunk:   active incidents decreased positively from 1963 to 451
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5804
+  Ground Truth: The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.
+  Best Chunk:   indicating a significant failure to meet contractual obligations while active incidents decreased positively
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.7035
+  Ground Truth: 7 incidents had critical severity
+  Best Chunk:   103 high and 7 critical)
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.7359
+  Ground Truth: 103 incidents had high severity.
+  Best Chunk:   low severity with 103
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5937
+  Ground Truth: The majority of incidents had low severity.
+  Best Chunk:   within acceptable limits according to the revised
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5729
+  Ground Truth: A mass closure of active incidents began on Friday, June 3.
+  Best Chunk:   a significant failure to meet contractual obligations while active incidents decreased
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7238
+  Ground Truth: Average cost was 0.047 which is in the low process serverity range.
+  Best Chunk:   0.0474** falling within acceptable limits according to the revised thresholds however the **sla attainment
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7396
+  Ground Truth: The average SLA was very low with 44.43%.
+  Best Chunk:   remains critically low at 44.43%** indicating a significant failure
+----------------------------------------
+Fact 9: ⚪ MISSING | Score: 0.5494
+  Ground Truth: Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).
+  Best Chunk:   1598 incidents were closed (predominantly low severity with 103 high and 7
+----------------------------------------
+
+[SUMMARY] ID 148 | Iter 1 | Total Coverage: 11.1% (1/9)
+====================================================================================================
+
+>> STARTING ID: 148 | ITERATION: 2
+Fact 1: ✅ FOUND | Score: 0.8940
+  Ground Truth: Active incidents decreased from 1963 to 451.
+  Best Chunk:   active incidents significantly decreased from 1963 to 451
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5745
+  Ground Truth: The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.
+  Best Chunk:   with an average non-compliance cost of 0.047 categorized as low severity while active incidents
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5863
+  Ground Truth: 7 incidents had critical severity
+  Best Chunk:   categorized as low severity
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6081
+  Ground Truth: 103 incidents had high severity.
+  Best Chunk:   management process demonstrates high compliance
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5969
+  Ground Truth: The majority of incidents had low severity.
+  Best Chunk:   the incident management process demonstrates high compliance
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5749
+  Ground Truth: A mass closure of active incidents began on Friday, June 3.
+  Best Chunk:   a critical concern is the low sla adherence of
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7294
+  Ground Truth: Average cost was 0.047 which is in the low process serverity range.
+  Best Chunk:   of 0.047 categorized as low severity while active incidents
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7682
+  Ground Truth: The average SLA was very low with 44.43%.
+  Best Chunk:   concern is the low sla adherence of 44.43%
+----------------------------------------
+Fact 9: 🟡 INDICATED | Score: 0.6065
+  Ground Truth: Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).
+  Best Chunk:   average resolution time of 21807.82 minutes to ensure contractual obligations are met
+----------------------------------------
+
+[SUMMARY] ID 148 | Iter 2 | Total Coverage: 11.1% (1/9)
+====================================================================================================
+
+>> STARTING ID: 148 | ITERATION: 3
+Fact 1: 🟡 INDICATED | Score: 0.8103
+  Ground Truth: Active incidents decreased from 1963 to 451.
+  Best Chunk:   incidents were significantly reduced from 1963 to 451
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5704
+  Ground Truth: The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.
+  Best Chunk:   directly impacting contractual obligations a remediation is required to investigate the root causes of the lengthy
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.7996
+  Ground Truth: 7 incidents had critical severity
+  Best Chunk:   and 7 critical severity incidents)
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.7336
+  Ground Truth: 103 incidents had high severity.
+  Best Chunk:   103 high and 7 critical severity
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5833
+  Ground Truth: The majority of incidents had low severity.
+  Best Chunk:   is required to investigate the root causes
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5702
+  Ground Truth: A mass closure of active incidents began on Friday, June 3.
+  Best Chunk:   a critical issue remains the consistently low sla adherence of
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7276
+  Ground Truth: Average cost was 0.047 which is in the low process serverity range.
+  Best Chunk:   0.0474** which falls within acceptable limits for a manager's overview active incidents were significantly
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7429
+  Ground Truth: The average SLA was very low with 44.43%.
+  Best Chunk:   the consistently low sla adherence of only **44.43%**
+----------------------------------------
+Fact 9: ⚪ MISSING | Score: 0.5931
+  Ground Truth: Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).
+  Best Chunk:   causes of the lengthy average resolution time (approximately 15 days) to improve sla
+----------------------------------------
+
+[SUMMARY] ID 148 | Iter 3 | Total Coverage: 0.0% (0/9)
+====================================================================================================
+
+>> STARTING ID: 148 | ITERATION: 4
+Fact 1: ✅ FOUND | Score: 0.9523
+  Ground Truth: Active incidents decreased from 1963 to 451.
+  Best Chunk:   active incidents decreasing from 1963 to 451
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5709
+  Ground Truth: The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.
+  Best Chunk:   (110 incidents) incurring high or critical compliance costs especially considering the tunings for specific deviation types
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5883
+  Ground Truth: 7 incidents had critical severity
+  Best Chunk:   1598 incidents successfully closed
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6058
+  Ground Truth: 103 incidents had high severity.
+  Best Chunk:   incident management demonstrated positive progress
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5979
+  Ground Truth: The majority of incidents had low severity.
+  Best Chunk:   the overall average process compliance cost is low
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5679
+  Ground Truth: A mass closure of active incidents began on Friday, June 3.
+  Best Chunk:   incident management demonstrated positive progress with active incidents
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7379
+  Ground Truth: Average cost was 0.047 which is in the low process serverity range.
+  Best Chunk:   the period the overall average process compliance cost is low at 0.0474
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7490
+  Ground Truth: The average SLA was very low with 44.43%.
+  Best Chunk:   however sla adherence remains critically low at 44.43%
+----------------------------------------
+Fact 9: ⚪ MISSING | Score: 0.5950
+  Ground Truth: Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).
+  Best Chunk:   44.43% and the average time to resolve incidents is a lengthy 15.14
+----------------------------------------
+
+[SUMMARY] ID 148 | Iter 4 | Total Coverage: 11.1% (1/9)
+====================================================================================================
+
+>> STARTING ID: 148 | ITERATION: 5
+Fact 1: ✅ FOUND | Score: 0.8940
+  Ground Truth: Active incidents decreased from 1963 to 451.
+  Best Chunk:   active incidents significantly decreased from 1963 to 451
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5757
+  Ground Truth: The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.
+  Best Chunk:   indicating strong process adherence after accounting for acceptable deviations like repetitive detections (1777
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5913
+  Ground Truth: 7 incidents had critical severity
+  Best Chunk:   operationally active incidents significantly decreased
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6015
+  Ground Truth: 103 incidents had high severity.
+  Best Chunk:   incidents met their service level
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5839
+  Ground Truth: The majority of incidents had low severity.
+  Best Chunk:   the overall process non-compliance cost is low
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5662
+  Ground Truth: A mass closure of active incidents began on Friday, June 3.
+  Best Chunk:   indicating strong process adherence after accounting for acceptable deviations like repetitive detections (1777
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7250
+  Ground Truth: Average cost was 0.047 which is in the low process serverity range.
+  Best Chunk:   is low at 0.0474 indicating strong process adherence after accounting
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7326
+  Ground Truth: The average SLA was very low with 44.43%.
+  Best Chunk:   however a critical issue remains as only 44.43%
+----------------------------------------
+Fact 9: ⚪ MISSING | Score: 0.5470
+  Ground Truth: Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).
+  Best Chunk:   (1653 instances) operationally active incidents significantly decreased from 1963 to 451
+----------------------------------------
+
+[SUMMARY] ID 148 | Iter 5 | Total Coverage: 11.1% (1/9)
+====================================================================================================
+
+>> STARTING ID: 148 | ITERATION: 6
+Fact 1: ✅ FOUND | Score: 0.9029
+  Ground Truth: Active incidents decreased from 1963 to 451.
+  Best Chunk:   active incidents decreased substantially from 1963 to 451
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5892
+  Ground Truth: The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.
+  Best Chunk:   the incident management process shows a significant improvement in overall compliance reflected by a
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5816
+  Ground Truth: 7 incidents had critical severity
+  Best Chunk:   the incident management process
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5926
+  Ground Truth: 103 incidents had high severity.
+  Best Chunk:   process shows a significant improvement
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6019
+  Ground Truth: The majority of incidents had low severity.
+  Best Chunk:   the incident management process shows a significant
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5707
+  Ground Truth: A mass closure of active incidents began on Friday, June 3.
+  Best Chunk:   remains critically low at 44.43% indicating a persistent failure
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7424
+  Ground Truth: Average cost was 0.047 which is in the low process serverity range.
+  Best Chunk:   0.047 placing it in the 'low' severity range for cost despite this adherence
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7388
+  Ground Truth: The average SLA was very low with 44.43%.
+  Best Chunk:   critically low at 44.43% indicating a persistent failure
+----------------------------------------
+Fact 9: ⚪ MISSING | Score: 0.5796
+  Ground Truth: Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).
+  Best Chunk:   average time to resolve incidents is still high at 15.14 days
+----------------------------------------
+
+[SUMMARY] ID 148 | Iter 6 | Total Coverage: 11.1% (1/9)
+====================================================================================================
+
+>> STARTING ID: 148 | ITERATION: 7
+Fact 1: ✅ FOUND | Score: 0.8938
+  Ground Truth: Active incidents decreased from 1963 to 451.
+  Best Chunk:   active incidents decreased significantly from 1963 to 451
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5716
+  Ground Truth: The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.
+  Best Chunk:   and addressing specific bottlenecks causing these prolonged resolution times to ensure contractual obligations
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5946
+  Ground Truth: 7 incidents had critical severity
+  Best Chunk:   1598 incidents closed largely low severity
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6135
+  Ground Truth: 103 incidents had high severity.
+  Best Chunk:   1598 incidents closed largely low severity
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5839
+  Ground Truth: The majority of incidents had low severity.
+  Best Chunk:   the overall process non-compliance cost is low
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5704
+  Ground Truth: A mass closure of active incidents began on Friday, June 3.
+  Best Chunk:   low at 0.0474 indicating strong adherence to defined process
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7250
+  Ground Truth: Average cost was 0.047 which is in the low process serverity range.
+  Best Chunk:   although the overall process non-compliance cost is low at 0.0474 indicating
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7370
+  Ground Truth: The average SLA was very low with 44.43%.
+  Best Chunk:   deviation exclusions) only 44.43% of incidents met their sla
+----------------------------------------
+Fact 9: 🟡 INDICATED | Score: 0.6423
+  Ground Truth: Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).
+  Best Chunk:   average resolution time of approximately 15.14 days (21807.82 minutes) remediation should
+----------------------------------------
+
+[SUMMARY] ID 148 | Iter 7 | Total Coverage: 11.1% (1/9)
+====================================================================================================
+
+>> STARTING ID: 148 | ITERATION: 8
+Fact 1: ⚪ MISSING | Score: 0.5701
+  Ground Truth: Active incidents decreased from 1963 to 451.
+  Best Chunk:   discrepancy between 5 new and 1598 closed incidents
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5838
+  Ground Truth: The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.
+  Best Chunk:   a 0% rate for assigned-to-resolved-by suggests severe issues with incident ownership and handoffs
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5852
+  Ground Truth: 7 incidents had critical severity
+  Best Chunk:   critical operational performance metrics for
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5890
+  Ground Truth: 103 incidents had high severity.
+  Best Chunk:   operational performance metrics for the
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5930
+  Ground Truth: The majority of incidents had low severity.
+  Best Chunk:   the incident management process shows a commendably low
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5765
+  Ground Truth: A mass closure of active incidents began on Friday, June 3.
+  Best Chunk:   attainment and resolution times alongside an urgent review of incident ownership
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7217
+  Ground Truth: Average cost was 0.047 which is in the low process serverity range.
+  Best Chunk:   overall compliance cost of 0.0474 indicating strong adherence to process steps when accounting
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7550
+  Ground Truth: The average SLA was very low with 44.43%.
+  Best Chunk:   period are unsatisfactory with only 44.43% of slas
+----------------------------------------
+Fact 9: 🟡 INDICATED | Score: 0.6266
+  Ground Truth: Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).
+  Best Chunk:   an average resolution time of over 15 days (21807.82 minutes) furthermore
+----------------------------------------
+
+[SUMMARY] ID 148 | Iter 8 | Total Coverage: 0.0% (0/9)
+====================================================================================================
+
+>> STARTING ID: 148 | ITERATION: 9
+Fact 1: 🟡 INDICATED | Score: 0.7824
+  Ground Truth: Active incidents decreased from 1963 to 451.
+  Best Chunk:   trend decreasing significantly from 1963 to 451
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5720
+  Ground Truth: The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.
+  Best Chunk:   the number of active incidents has shown a positive trend decreasing significantly from
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6011
+  Ground Truth: 7 incidents had critical severity
+  Best Chunk:   of high or critical severity
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6038
+  Ground Truth: 103 incidents had high severity.
+  Best Chunk:   451 within the reporting period
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6095
+  Ground Truth: The majority of incidents had low severity.
+  Best Chunk:   over half of all incidents are not
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5738
+  Ground Truth: A mass closure of active incidents began on Friday, June 3.
+  Best Chunk:   to significantly improve sla compliance across all incidents
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7222
+  Ground Truth: Average cost was 0.047 which is in the low process serverity range.
+  Best Chunk:   measured by non-compliance cost is excellent at 0.0474 categorized
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7646
+  Ground Truth: The average SLA was very low with 44.43%.
+  Best Chunk:   the consistently low sla adherence rate of 44.43%
+----------------------------------------
+Fact 9: ⚪ MISSING | Score: 0.5502
+  Ground Truth: Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).
+  Best Chunk:   only 6.88% of closed incidents were of high or critical severity however a critical
+----------------------------------------
+
+[SUMMARY] ID 148 | Iter 9 | Total Coverage: 0.0% (0/9)
+====================================================================================================
+
+>> STARTING ID: 148 | ITERATION: 10
+Fact 1: 🟡 INDICATED | Score: 0.8103
+  Ground Truth: Active incidents decreased from 1963 to 451.
+  Best Chunk:   incidents were significantly reduced from 1963 to 451
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5795
+  Ground Truth: The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.
+  Best Chunk:   indicating high adherence to the reference model with repetitive detection and awaiting deviations falling within
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.7320
+  Ground Truth: 7 incidents had critical severity
+  Best Chunk:   incidents were closed (including 7 critical
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.7110
+  Ground Truth: 103 incidents had high severity.
+  Best Chunk:   were closed (including 7 critical 103
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5958
+  Ground Truth: The majority of incidents had low severity.
+  Best Chunk:   indicating high adherence to the reference model
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5712
+  Ground Truth: A mass closure of active incidents began on Friday, June 3.
+  Best Chunk:   0.0474** indicating high adherence to the reference model with repetitive detection
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7299
+  Ground Truth: Average cost was 0.047 which is in the low process serverity range.
+  Best Chunk:   of 0.0474** indicating high adherence to the reference model with repetitive detection
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7408
+  Ground Truth: The average SLA was very low with 44.43%.
+  Best Chunk:   compliance only **44.43% of slas were
+----------------------------------------
+Fact 9: 🟡 INDICATED | Score: 0.6729
+  Ground Truth: Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).
+  Best Chunk:   average time to resolve incidents of 21807.82 minutes (~15.14 days)** active
+----------------------------------------
+
+[SUMMARY] ID 148 | Iter 10 | Total Coverage: 0.0% (0/9)
+====================================================================================================
+
+####################################################################################################
+### NEW CONTROL UNIT: 149 ###
+####################################################################################################
+
+
+>> STARTING ID: 149 | ITERATION: 1
+Fact 1: ⚪ MISSING | Score: 0.5894
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   10min) and 'resolution' (5d 22h 11min) critically exceed non-acceptable thresholds furthermore 'activation' shows
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6336
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   8h 10min) and 'resolution' (5d 22h 11min) critically exceed non-acceptable thresholds furthermore 'activation'
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6402
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   10min) and 'resolution' (5d 22h 11min) critically exceed non-acceptable thresholds furthermore 'activation' shows
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6089
+  Ground Truth: Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).
+  Best Chunk:   considered process errors significant non-compliance persists average durations for 'activation' (8d 18h 55min)
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5938
+  Ground Truth: The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.
+  Best Chunk:   and "n*rc" variants are not considered process errors significant non-compliance persists average durations for
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5827
+  Ground Truth: The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.
+  Best Chunk:   'detection' and 544 missing 'activation' activities to ensure proper process initiation and logging
+----------------------------------------
+
+[SUMMARY] ID 149 | Iter 1 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 149 | ITERATION: 2
+Fact 1: 🟡 INDICATED | Score: 0.6331
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   critical issues persist with most states exceeding non-acceptable average durations 'detection' (4d 6h 35min)
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6255
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   8h 10min) and 'resolution' (5d 22h 11min) furthermore 544 missing 'activation' activities 1990
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6345
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   10min) and 'resolution' (5d 22h 11min) furthermore 544 missing 'activation' activities 1990 repetitive
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6049
+  Ground Truth: Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).
+  Best Chunk:   8h 10min) and 'resolution' (5d 22h 11min) furthermore 544 missing 'activation' activities 1990
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5963
+  Ground Truth: The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.
+  Best Chunk:   remediation is required to enforce sequential process adherence particularly preventing direct 'detection'
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5935
+  Ground Truth: The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.
+  Best Chunk:   the incident management process exhibits significant non-compliance despite the re-interpretation of 'detection' and
+----------------------------------------
+
+[SUMMARY] ID 149 | Iter 2 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 149 | ITERATION: 3
+Fact 1: ⚪ MISSING | Score: 0.5791
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   average 'awaiting' state duration of 16 days far exceeds the 10-day non-acceptable threshold
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5785
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   average 'awaiting' state duration of 16 days far exceeds the 10-day non-acceptable threshold
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6258
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   average 'awaiting' state duration of 16 days far exceeds the 10-day non-acceptable threshold
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5502
+  Ground Truth: Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).
+  Best Chunk:   average 'awaiting' state duration of 16 days far exceeds the 10-day non-acceptable threshold
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5949
+  Ground Truth: The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.
+  Best Chunk:   the excessive average duration of the 'awaiting' state despite its external dependency as it critically impacts
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5890
+  Ground Truth: The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.
+  Best Chunk:   the incident management process exhibits significant compliance issues critical deviations include frequent missing
+----------------------------------------
+
+[SUMMARY] ID 149 | Iter 3 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 149 | ITERATION: 4
+Fact 1: 🟡 INDICATED | Score: 0.6440
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   the cost metric average state durations remain critically high for 'detection' (4d 6h 35min)
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6326
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   8h 10min) and 'resolution' (5d 22h 11min) all significantly exceeding non-acceptable thresholds critical
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6383
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   10min) and 'resolution' (5d 22h 11min) all significantly exceeding non-acceptable thresholds critical process deviations
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6073
+  Ground Truth: Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).
+  Best Chunk:   average state durations remain critically high for 'detection' (4d 6h 35min) 'activation' (8d
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5972
+  Ground Truth: The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.
+  Best Chunk:   a critical level of non-compliance based on the cost metric average state durations remain critically high
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5793
+  Ground Truth: The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.
+  Best Chunk:   these persistent prolonged state durations and critical deviations particularly focusing on 'detection' 'activation' and 'resolution' to enforce process adherence
+----------------------------------------
+
+[SUMMARY] ID 149 | Iter 4 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 149 | ITERATION: 5
+Fact 1: 🟡 INDICATED | Score: 0.6415
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   critical bottlenecks persist in core process states average durations for detection (4d 6h 35min)
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6273
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   persist in core process states average durations for detection (4d 6h 35min) activation (8d
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6313
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   persist in core process states average durations for detection (4d 6h 35min) activation (8d
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6032
+  Ground Truth: Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).
+  Best Chunk:   in core process states average durations for detection (4d 6h 35min) activation (8d
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6019
+  Ground Truth: The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.
+  Best Chunk:   the incident management process shows moderate compliance with significant performance issues
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5955
+  Ground Truth: The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.
+  Best Chunk:   the incident management process shows moderate compliance with significant performance issues while recent clarifications mitigate concerns
+----------------------------------------
+
+[SUMMARY] ID 149 | Iter 5 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 149 | ITERATION: 6
+Fact 1: 🟡 INDICATED | Score: 0.6226
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   (a 115) and 'resolution' (r 45) all critically surpassing acceptable thresholds furthermore average durations for 'detection' (4d 6h)
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6130
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   (16d 8h) and 'resolution' (5d 22h) are critically prolonged indicating severe bottlenecks urgent
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6159
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   (r 45) all critically surpassing acceptable thresholds furthermore average durations for 'detection' (4d 6h) 'activation' (8d
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5993
+  Ground Truth: Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).
+  Best Chunk:   (16d 8h) and 'resolution' (5d 22h) are critically prolonged indicating severe bottlenecks urgent
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6019
+  Ground Truth: The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.
+  Best Chunk:   the incident management process exhibits critical non-compliance with a calculated cost
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5897
+  Ground Truth: The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.
+  Best Chunk:   the incident management process exhibits critical non-compliance with a calculated cost of 140.04 significantly exceeding the critical threshold
+----------------------------------------
+
+[SUMMARY] ID 149 | Iter 6 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 149 | ITERATION: 7
+Fact 1: 🟡 INDICATED | Score: 0.6343
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   and process explanations significant compliance concerns persist average durations for 'detection' (4d 6h 35min)
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6360
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   8h 10min) and 'resolution' (5d 22h 11min) remain critically high severely exceeding non-acceptable thresholds
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6427
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   10min) and 'resolution' (5d 22h 11min) remain critically high severely exceeding non-acceptable thresholds
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6036
+  Ground Truth: Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).
+  Best Chunk:   significant compliance concerns persist average durations for 'detection' (4d 6h 35min) 'activation' (8d
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6013
+  Ground Truth: The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.
+  Best Chunk:   the critically high average durations in the detection activation awaiting and resolution states by identifying
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5868
+  Ground Truth: The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.
+  Best Chunk:   the critically high average durations in the detection activation awaiting and resolution states by identifying and resolving underlying bottlenecks
+----------------------------------------
+
+[SUMMARY] ID 149 | Iter 7 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 149 | ITERATION: 8
+Fact 1: 🟡 INDICATED | Score: 0.6093
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   16 days 8 hours and 10 minutes far exceed the non-acceptable threshold of 14400 minutes
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6604
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   at 16 days 8 hours and 10 minutes far exceed the non-acceptable threshold of 14400 minutes
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6730
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   at 16 days 8 hours and 10 minutes far exceed the non-acceptable threshold of 14400 minutes
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6235
+  Ground Truth: Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).
+  Best Chunk:   at 16 days 8 hours and 10 minutes far exceed the non-acceptable threshold of 14400 minutes
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6070
+  Ground Truth: The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.
+  Best Chunk:   the incident management process shows an overall critical compliance cost despite
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5969
+  Ground Truth: The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.
+  Best Chunk:   the incident management process shows an overall critical compliance cost despite recent adjustments while repetitive detection
+----------------------------------------
+
+[SUMMARY] ID 149 | Iter 8 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 149 | ITERATION: 9
+Fact 1: 🟡 INDICATED | Score: 0.6194
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   significant compliance issues with critical inefficiencies average state durations for `detection` (6155 min) `activation` (12655
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6216
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   significant compliance issues with critical inefficiencies average state durations for `detection` (6155 min) `activation` (12655
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6278
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   (23530 min) and `resolution` (8531 min) all substantially exceed non-acceptable thresholds while repetitive
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5528
+  Ground Truth: Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).
+  Best Chunk:   significant compliance issues with critical inefficiencies average state durations for `detection` (6155 min) `activation` (12655
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5974
+  Ground Truth: The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.
+  Best Chunk:   `mismatch activation` figures remediation is required to address the pervasive excessive state durations and investigate
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5852
+  Ground Truth: The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.
+  Best Chunk:   the reported `missing` and `mismatch activation` figures remediation is required to address the pervasive excessive state durations
+----------------------------------------
+
+[SUMMARY] ID 149 | Iter 9 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 149 | ITERATION: 10
+Fact 1: 🟡 INDICATED | Score: 0.6268
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   despite the updated configuration average state durations for 'detection' (6155 min) 'activation' (12655
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6260
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   despite the updated configuration average state durations for 'detection' (6155 min) 'activation' (12655
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6191
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   (23530 min) and 'resolution' (8531 min) significantly exceed their respective non-acceptable thresholds indicating
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6056
+  Ground Truth: Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).
+  Best Chunk:   direct transition from 'detection' to 'awaiting' (n->w) observed with an average time of "1d 0h 45min" remains
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5964
+  Ground Truth: The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.
+  Best Chunk:   their respective non-acceptable thresholds indicating severe process bottlenecks while repetitive 'detection'
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5911
+  Ground Truth: The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.
+  Best Chunk:   represent significant process non-compliance against defined thresholds furthermore the direct transition from 'detection'
+----------------------------------------
+
+[SUMMARY] ID 149 | Iter 10 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+####################################################################################################
+### NEW CONTROL UNIT: 150 ###
+####################################################################################################
+
+
+>> STARTING ID: 150 | ITERATION: 1
+Fact 1: 🟡 INDICATED | Score: 0.7310
+  Ground Truth: The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules
+  Best Chunk:   the most frequent variants such as 'n r c' (182 incidents) 'a r c'
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7352
+  Ground Truth: Variants ARC (count 135) are missing detections and are non-compliant.
+  Best Chunk:   'a r c' (135 incidents) and 'n
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6416
+  Ground Truth: Repetitive detections are no process violation due to potentially multiple triggers
+  Best Chunk:   n\*rc flows are due to merge rules and repetitive
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5989
+  Ground Truth: Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.
+  Best Chunk:   flows are due to merge rules and repetitive 'n' and 'w' activities are within acceptable thresholds
+----------------------------------------
+
+[SUMMARY] ID 150 | Iter 1 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 150 | ITERATION: 2
+Fact 1: 🟡 INDICATED | Score: 0.7678
+  Ground Truth: The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules
+  Best Chunk:   the most frequent recorded variant `n r c` (182 incidents) along with patterns like
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7808
+  Ground Truth: Variants ARC (count 135) are missing detections and are non-compliant.
+  Best Chunk:   c` variant (135 incidents) is a significant deviation
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6433
+  Ground Truth: Repetitive detections are no process violation due to potentially multiple triggers
+  Best Chunk:   attributed to automated merging rules and repetitive detection triggers
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6137
+  Ground Truth: Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.
+  Best Chunk:   incidents) are not process non-compliance concerns for the monitor as they are attributed to automated merging rules
+----------------------------------------
+
+[SUMMARY] ID 150 | Iter 2 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 150 | ITERATION: 3
+Fact 1: 🟡 INDICATED | Score: 0.7925
+  Ground Truth: The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules
+  Best Chunk:   several paths now deemed compliant due to updated interpretations "n r c" (182 occurrences)
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7719
+  Ground Truth: Variants ARC (count 135) are missing detections and are non-compliant.
+  Best Chunk:   c" (135 occurrences) which frequently bypasses the initial detection stage and variants
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6459
+  Ground Truth: Repetitive detections are no process violation due to potentially multiple triggers
+  Best Chunk:   frequent recorded variants include several paths now deemed compliant due to
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6048
+  Ground Truth: Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.
+  Best Chunk:   recorded variants include several paths now deemed compliant due to updated interpretations
+----------------------------------------
+
+[SUMMARY] ID 150 | Iter 3 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 150 | ITERATION: 4
+Fact 1: 🟡 INDICATED | Score: 0.7131
+  Ground Truth: The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules
+  Best Chunk:   the most frequent recorded variants are 'n r c' (182 incidents) 'a r c'
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7566
+  Ground Truth: Variants ARC (count 135) are missing detections and are non-compliant.
+  Best Chunk:   technical triggers not process errors however 'a r c' (135 incidents)
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6516
+  Ground Truth: Repetitive detections are no process violation due to potentially multiple triggers
+  Best Chunk:   repetitive 'detection' indicates multiple technical triggers not process errors
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6064
+  Ground Truth: Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.
+  Best Chunk:   leading case without manual 'activation' or 'awaiting' and repetitive 'detection' indicates multiple technical triggers
+----------------------------------------
+
+[SUMMARY] ID 150 | Iter 4 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 150 | ITERATION: 5
+Fact 1: 🟡 INDICATED | Score: 0.6954
+  Ground Truth: The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules
+  Best Chunk:   the most frequent variants are 'n r c' (182 incidents) 'a r c' (135
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7352
+  Ground Truth: Variants ARC (count 135) are missing detections and are non-compliant.
+  Best Chunk:   'a r c' (135 incidents) and 'n
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6796
+  Ground Truth: Repetitive detections are no process violation due to potentially multiple triggers
+  Best Chunk:   acceptable due to temporary merge rules and multiple detection triggers
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6152
+  Ground Truth: Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.
+  Best Chunk:   acceptable due to temporary merge rules and multiple detection triggers however the monitor should investigate variants with repetitive
+----------------------------------------
+
+[SUMMARY] ID 150 | Iter 5 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 150 | ITERATION: 6
+Fact 1: 🟡 INDICATED | Score: 0.7474
+  Ground Truth: The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules
+  Best Chunk:   (182 occurrences) and other 'n*rc' variants along with 'n' and 'w' repetitions are excused by new interpretations
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7568
+  Ground Truth: Variants ARC (count 135) are missing detections and are non-compliant.
+  Best Chunk:   frequent *truly non-compliant* variants are 'a r c' (135
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6195
+  Ground Truth: Repetitive detections are no process violation due to potentially multiple triggers
+  Best Chunk:   state repetitions demand immediate remediation to improve incident management compliance
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5897
+  Ground Truth: Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.
+  Best Chunk:   variants along with 'n' and 'w' repetitions are excused by new interpretations
+----------------------------------------
+
+[SUMMARY] ID 150 | Iter 6 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 150 | ITERATION: 7
+Fact 1: 🟡 INDICATED | Score: 0.7278
+  Ground Truth: The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules
+  Best Chunk:   (182 incidents) and 'a r c' (135 incidents) based on the updated environment variables `n*rc` variants
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7948
+  Ground Truth: Variants ARC (count 135) are missing detections and are non-compliant.
+  Best Chunk:   c' (135 incidents) is non-compliant as it
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6545
+  Ground Truth: Repetitive detections are no process violation due to potentially multiple triggers
+  Best Chunk:   compliant due to merge rules and acceptable technical triggers
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6141
+  Ground Truth: Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.
+  Best Chunk:   incidents) and repetitive 'detection' activities are considered compliant due to merge rules
+----------------------------------------
+
+[SUMMARY] ID 150 | Iter 7 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 150 | ITERATION: 8
+Fact 1: 🟡 INDICATED | Score: 0.7131
+  Ground Truth: The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules
+  Best Chunk:   the most frequent recorded variants are 'n r c' (182 incidents) 'a r c'
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7484
+  Ground Truth: Variants ARC (count 135) are missing detections and are non-compliant.
+  Best Chunk:   why 135 incidents initiate directly at 'activation' ('a')
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6611
+  Ground Truth: Repetitive detections are no process violation due to potentially multiple triggers
+  Best Chunk:   compliant due to automatic merge rules for incidents with new triggers
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6114
+  Ground Truth: Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.
+  Best Chunk:   considered compliant due to automatic merge rules for incidents with new triggers
+----------------------------------------
+
+[SUMMARY] ID 150 | Iter 8 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 150 | ITERATION: 9
+Fact 1: 🟡 INDICATED | Score: 0.7190
+  Ground Truth: The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules
+  Best Chunk:   the most frequent recorded variants 'n r c' (182 incidents) 'n n r c'
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7717
+  Ground Truth: Variants ARC (count 135) are missing detections and are non-compliant.
+  Best Chunk:   c' (135 incidents) still indicates a compliance concern by bypassing
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6240
+  Ground Truth: Repetitive detections are no process violation due to potentially multiple triggers
+  Best Chunk:   formal detection requiring investigation to understand the root
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6014
+  Ground Truth: Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.
+  Best Chunk:   with 'detection' additionally repetitive 'awaiting' (w) deviations are dismissed as non-process harming
+----------------------------------------
+
+[SUMMARY] ID 150 | Iter 9 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 150 | ITERATION: 10
+Fact 1: 🟡 INDICATED | Score: 0.7547
+  Ground Truth: The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules
+  Best Chunk:   the most frequent recorded variant is 'n r c' (182 occurrences) indicating incidents transitioning directly from 'detection'
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7668
+  Ground Truth: Variants ARC (count 135) are missing detections and are non-compliant.
+  Best Chunk:   c' (135 occurrences) where incidents start at 'activation' without a recorded
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6558
+  Ground Truth: Repetitive detections are no process violation due to potentially multiple triggers
+  Best Chunk:   is not considered a process error due to automated merge rules
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6374
+  Ground Truth: Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.
+  Best Chunk:   variant is not considered a process error due to automated merge rules
+----------------------------------------
+
+[SUMMARY] ID 150 | Iter 10 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+####################################################################################################
+### NEW CONTROL UNIT: 151 ###
+####################################################################################################
+
+
+>> STARTING ID: 151 | ITERATION: 1
+Fact 1: 🟡 INDICATED | Score: 0.6281
+  Ground Truth: No process activities showed concering average compliance cost exceeding the individual thresholds.
+  Best Chunk:   respective non-acceptable thresholds therefore while the cost metric shows compliance
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5851
+  Ground Truth: There were 319 missing detections, that violate threshold
+  Best Chunk:   implicitly addressing missing activation (544) deviations
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.7234
+  Ground Truth: There were 1777 repetitive detections, that do not violate the threshold
+  Best Chunk:   effectively excusing high repetition counts in detection (1777)
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6005
+  Ground Truth: There were 0 detection mismatches.
+  Best Chunk:   the cost metric shows compliance
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.7457
+  Ground Truth: There were 544 missing activations caused by merge rules and are not process violations.
+  Best Chunk:   and implicitly addressing missing activation (544) deviations due to n*rc paths
+----------------------------------------
+Fact 6: 🟡 INDICATED | Score: 0.7638
+  Ground Truth: There were 1990 repetitive activations, which violate the threshold
+  Best Chunk:   remaining high deviations in activation (1990 repetition
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7311
+  Ground Truth: There were 115 activation mismatches, which violate the theshold
+  Best Chunk:   remaining high deviations in activation (1990 repetition 115 mismatch)
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7267
+  Ground Truth: There were 1653 repetitive awaiting events, that do not violate the threshold
+  Best Chunk:   updated interpretations effectively excusing high repetition counts in detection (1777) and awaiting (1653)
+----------------------------------------
+Fact 9: 🟡 INDICATED | Score: 0.7208
+  Ground Truth: There were 4 awaiting mismatches.
+  Best Chunk:   times in detection (4d
+----------------------------------------
+Fact 10: 🟡 INDICATED | Score: 0.7142
+  Ground Truth: There were 119 repetitive awaiting events, that violate the threshold
+  Best Chunk:   high deviations in activation (1990 repetition 115 mismatch) and resolution (119
+----------------------------------------
+Fact 11: 🟡 INDICATED | Score: 0.7104
+  Ground Truth: 45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.
+  Best Chunk:   activity durations and further investigating remaining high deviations in activation (1990 repetition 115 mismatch) and resolution (119 repetition 45
+----------------------------------------
+
+[SUMMARY] ID 151 | Iter 1 | Total Coverage: 0.0% (0/11)
+====================================================================================================
+
+>> STARTING ID: 151 | ITERATION: 2
+Fact 1: 🟡 INDICATED | Score: 0.6231
+  Ground Truth: No process activities showed concering average compliance cost exceeding the individual thresholds.
+  Best Chunk:   on the 'cost' compliance metric and the provided tunings all process activities
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5907
+  Ground Truth: There were 319 missing detections, that violate threshold
+  Best Chunk:   the updated environmental parameters and tunings
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5892
+  Ground Truth: There were 1777 repetitive detections, that do not violate the threshold
+  Best Chunk:   variants do not impact compliance as per the updated environmental parameters
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5969
+  Ground Truth: There were 0 detection mismatches.
+  Best Chunk:   updated environmental parameters and tunings
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5944
+  Ground Truth: There were 544 missing activations caused by merge rules and are not process violations.
+  Best Chunk:   as 'missing' states due to n*rc variants do not impact compliance as
+----------------------------------------
+Fact 6: 🟡 INDICATED | Score: 0.6276
+  Ground Truth: There were 1990 repetitive activations, which violate the threshold
+  Best Chunk:   the 'cost' compliance metric and the provided tunings
+----------------------------------------
+Fact 7: ⚪ MISSING | Score: 0.5827
+  Ground Truth: There were 115 activation mismatches, which violate the theshold
+  Best Chunk:   the 'cost' compliance metric and the provided tunings
+----------------------------------------
+Fact 8: ⚪ MISSING | Score: 0.5732
+  Ground Truth: There were 1653 repetitive awaiting events, that do not violate the threshold
+  Best Chunk:   variants do not impact compliance as per the updated environmental parameters and tunings
+----------------------------------------
+Fact 9: ⚪ MISSING | Score: 0.5738
+  Ground Truth: There were 4 awaiting mismatches.
+  Best Chunk:   updated environmental parameters and tunings
+----------------------------------------
+Fact 10: ⚪ MISSING | Score: 0.5882
+  Ground Truth: There were 119 repetitive awaiting events, that violate the threshold
+  Best Chunk:   as per the updated environmental parameters and tunings
+----------------------------------------
+Fact 11: ⚪ MISSING | Score: 0.5774
+  Ground Truth: 45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.
+  Best Chunk:   not impact compliance as per the updated environmental parameters and tunings hence no remediation is required
+----------------------------------------
+
+[SUMMARY] ID 151 | Iter 2 | Total Coverage: 0.0% (0/11)
+====================================================================================================
+
+>> STARTING ID: 151 | ITERATION: 3
+Fact 1: 🟡 INDICATED | Score: 0.6279
+  Ground Truth: No process activities showed concering average compliance cost exceeding the individual thresholds.
+  Best Chunk:   for each activity indicating high process compliance after considering specified deviation exceptions
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5831
+  Ground Truth: There were 319 missing detections, that violate threshold
+  Best Chunk:   indicating high process compliance after considering specified deviation
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5784
+  Ground Truth: There were 1777 repetitive detections, that do not violate the threshold
+  Best Chunk:   within the 'low' severity range and below the acceptable threshold
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5981
+  Ground Truth: There were 0 detection mismatches.
+  Best Chunk:   the `cost` compliance metric
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5926
+  Ground Truth: There were 544 missing activations caused by merge rules and are not process violations.
+  Best Chunk:   indicating high process compliance after considering specified deviation exceptions however the average time spent in detection
+----------------------------------------
+Fact 6: 🟡 INDICATED | Score: 0.6143
+  Ground Truth: There were 1990 repetitive activations, which violate the threshold
+  Best Chunk:   range and below the acceptable threshold
+----------------------------------------
+Fact 7: ⚪ MISSING | Score: 0.5777
+  Ground Truth: There were 115 activation mismatches, which violate the theshold
+  Best Chunk:   non-acceptable time thresholds remediation is required
+----------------------------------------
+Fact 8: ⚪ MISSING | Score: 0.5668
+  Ground Truth: There were 1653 repetitive awaiting events, that do not violate the threshold
+  Best Chunk:   based on the `cost` compliance metric all activities (detection 0.02
+----------------------------------------
+Fact 9: 🟡 INDICATED | Score: 0.7110
+  Ground Truth: There were 4 awaiting mismatches.
+  Best Chunk:   spent in detection (4d
+----------------------------------------
+Fact 10: ⚪ MISSING | Score: 0.5838
+  Ground Truth: There were 119 repetitive awaiting events, that violate the threshold
+  Best Chunk:   indicating high process compliance after considering specified deviation
+----------------------------------------
+Fact 11: ⚪ MISSING | Score: 0.5753
+  Ground Truth: 45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.
+  Best Chunk:   indicating high process compliance after considering specified deviation exceptions however the average time spent
+----------------------------------------
+
+[SUMMARY] ID 151 | Iter 3 | Total Coverage: 0.0% (0/11)
+====================================================================================================
+
+>> STARTING ID: 151 | ITERATION: 4
+Fact 1: 🟡 INDICATED | Score: 0.6193
+  Ground Truth: No process activities showed concering average compliance cost exceeding the individual thresholds.
+  Best Chunk:   using the non-compliance cost metric and adjusted interpretations shows
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7414
+  Ground Truth: There were 319 missing detections, that violate threshold
+  Best Chunk:   excessive missing events (319) and an average
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5811
+  Ground Truth: There were 1777 repetitive detections, that do not violate the threshold
+  Best Chunk:   has excessive missing events (319) and an average
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6009
+  Ground Truth: There were 0 detection mismatches.
+  Best Chunk:   shorten the 4-day average
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5938
+  Ground Truth: There were 544 missing activations caused by merge rules and are not process violations.
+  Best Chunk:   the non-compliance cost metric and adjusted interpretations shows that 'activation' remains
+----------------------------------------
+Fact 6: 🟡 INDICATED | Score: 0.7616
+  Ground Truth: There were 1990 repetitive activations, which violate the threshold
+  Best Chunk:   with critical deviations in repetition (1990) and mismatch
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7258
+  Ground Truth: There were 115 activation mismatches, which violate the theshold
+  Best Chunk:   mismatch (115) and an excessive average time
+----------------------------------------
+Fact 8: ⚪ MISSING | Score: 0.5810
+  Ground Truth: There were 1653 repetitive awaiting events, that do not violate the threshold
+  Best Chunk:   a moderate cost of 0.1555 coupled with critical deviations in repetition
+----------------------------------------
+Fact 9: 🟡 INDICATED | Score: 0.7418
+  Ground Truth: There were 4 awaiting mismatches.
+  Best Chunk:   the 4-day average time
+----------------------------------------
+Fact 10: 🟡 INDICATED | Score: 0.7110
+  Ground Truth: There were 119 repetitive awaiting events, that violate the threshold
+  Best Chunk:   reports critical repetition (119) and mismatch (45) deviations
+----------------------------------------
+Fact 11: 🟡 INDICATED | Score: 0.7004
+  Ground Truth: 45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.
+  Best Chunk:   and 'resolution' reports critical repetition (119) and mismatch (45) deviations along with an average time
+----------------------------------------
+
+[SUMMARY] ID 151 | Iter 4 | Total Coverage: 0.0% (0/11)
+====================================================================================================
+
+>> STARTING ID: 151 | ITERATION: 6
+Fact 1: 🟡 INDICATED | Score: 0.6180
+  Ground Truth: No process activities showed concering average compliance cost exceeding the individual thresholds.
+  Best Chunk:   a responder's perspective suggesting the initial reported costs might
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5898
+  Ground Truth: There were 319 missing detections, that violate threshold
+  Best Chunk:   the current metrics and adjusted rules
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.7197
+  Ground Truth: There were 1777 repetitive detections, that do not violate the threshold
+  Best Chunk:   might not fully reflect the intended assessment specifically repetitive detection deviations (1777
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6029
+  Ground Truth: There were 0 detection mismatches.
+  Best Chunk:   this indicates overall compliance
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5945
+  Ground Truth: There were 544 missing activations caused by merge rules and are not process violations.
+  Best Chunk:   and repetitive awaiting activities (1653 in 'w') are deemed not process errors
+----------------------------------------
+Fact 6: 🟡 INDICATED | Score: 0.6325
+  Ground Truth: There were 1990 repetitive activations, which violate the threshold
+  Best Chunk:   on the current metrics and adjusted rules
+----------------------------------------
+Fact 7: ⚪ MISSING | Score: 0.5883
+  Ground Truth: There were 115 activation mismatches, which violate the theshold
+  Best Chunk:   the provided rule changes for specific deviation types imply they
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7232
+  Ground Truth: There were 1653 repetitive awaiting events, that do not violate the threshold
+  Best Chunk:   and repetitive awaiting activities (1653 in 'w') are deemed
+----------------------------------------
+Fact 9: ⚪ MISSING | Score: 0.5853
+  Ground Truth: There were 4 awaiting mismatches.
+  Best Chunk:   current metrics and adjusted rules
+----------------------------------------
+Fact 10: ⚪ MISSING | Score: 0.5896
+  Ground Truth: There were 119 repetitive awaiting events, that violate the threshold
+  Best Chunk:   these exclusions are correctly applied to the provided average costs
+----------------------------------------
+Fact 11: ⚪ MISSING | Score: 0.5854
+  Ground Truth: 45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.
+  Best Chunk:   provided rule changes for specific deviation types imply they should not contribute to the compliance cost
+----------------------------------------
+
+[SUMMARY] ID 151 | Iter 6 | Total Coverage: 0.0% (0/11)
+====================================================================================================
+
+>> STARTING ID: 151 | ITERATION: 7
+Fact 1: 🟡 INDICATED | Score: 0.6374
+  Ground Truth: No process activities showed concering average compliance cost exceeding the individual thresholds.
+  Best Chunk:   all process activities currently demonstrate 'low' average non-compliance cost
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7383
+  Ground Truth: There were 319 missing detections, that violate threshold
+  Best Chunk:   non-compliance 'detection' shows high missing deviations (319
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5822
+  Ground Truth: There were 1777 repetitive detections, that do not violate the threshold
+  Best Chunk:   to clarify the actual non-compliance of missing activities
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6076
+  Ground Truth: There were 0 detection mismatches.
+  Best Chunk:   to reduce repetition and mismatch deviations
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.7256
+  Ground Truth: There were 544 missing activations caused by merge rules and are not process violations.
+  Best Chunk:   its 544 missing deviations (threshold <=200) require further data to differentiate
+----------------------------------------
+Fact 6: 🟡 INDICATED | Score: 0.7801
+  Ground Truth: There were 1990 repetitive activations, which violate the threshold
+  Best Chunk:   a critical area with 1990 repetition deviations
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7277
+  Ground Truth: There were 115 activation mismatches, which violate the theshold
+  Best Chunk:   115 mismatch deviations (threshold <=50) its 544 missing
+----------------------------------------
+Fact 8: ⚪ MISSING | Score: 0.5758
+  Ground Truth: There were 1653 repetitive awaiting events, that do not violate the threshold
+  Best Chunk:   non-compliant with 119 repetition (threshold <=50) and 45 mismatch
+----------------------------------------
+Fact 9: 🟡 INDICATED | Score: 0.6004
+  Ground Truth: There were 4 awaiting mismatches.
+  Best Chunk:   its 544 missing deviations
+----------------------------------------
+Fact 10: 🟡 INDICATED | Score: 0.7259
+  Ground Truth: There were 119 repetitive awaiting events, that violate the threshold
+  Best Chunk:   non-compliant with 119 repetition (threshold <=50) and 45 mismatch
+----------------------------------------
+Fact 11: 🟡 INDICATED | Score: 0.7222
+  Ground Truth: 45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.
+  Best Chunk:   45 mismatch (threshold <=20) deviations **recommendation:** focus remediation efforts on addressing the high volume
+----------------------------------------
+
+[SUMMARY] ID 151 | Iter 7 | Total Coverage: 0.0% (0/11)
+====================================================================================================
+
+>> STARTING ID: 151 | ITERATION: 8
+Fact 1: 🟡 INDICATED | Score: 0.6168
+  Ground Truth: No process activities showed concering average compliance cost exceeding the individual thresholds.
+  Best Chunk:   on the 'cost' compliance metric and adjusted deviation interpretations
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5878
+  Ground Truth: There were 319 missing detections, that violate threshold
+  Best Chunk:   meeting the acceptable compliance threshold
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5779
+  Ground Truth: There were 1777 repetitive detections, that do not violate the threshold
+  Best Chunk:   immediate remediation is required to investigate the root
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5969
+  Ground Truth: There were 0 detection mismatches.
+  Best Chunk:   the acceptable compliance threshold
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5927
+  Ground Truth: There were 544 missing activations caused by merge rules and are not process violations.
+  Best Chunk:   a critical non-compliance issue persists in average activity durations detection (6155
+----------------------------------------
+Fact 6: 🟡 INDICATED | Score: 0.6194
+  Ground Truth: There were 1990 repetitive activations, which violate the threshold
+  Best Chunk:   on the 'cost' compliance metric and adjusted deviation
+----------------------------------------
+Fact 7: ⚪ MISSING | Score: 0.5851
+  Ground Truth: There were 115 activation mismatches, which violate the theshold
+  Best Chunk:   non-compliance issue persists in average activity durations detection (6155
+----------------------------------------
+Fact 8: ⚪ MISSING | Score: 0.5857
+  Ground Truth: There were 1653 repetitive awaiting events, that do not violate the threshold
+  Best Chunk:   non-compliance issue persists in average activity durations detection (6155 min)
+----------------------------------------
+Fact 9: ⚪ MISSING | Score: 0.5781
+  Ground Truth: There were 4 awaiting mismatches.
+  Best Chunk:   durations detection (6155 min)
+----------------------------------------
+Fact 10: ⚪ MISSING | Score: 0.5830
+  Ground Truth: There were 119 repetitive awaiting events, that violate the threshold
+  Best Chunk:   non-compliance issue persists in average activity durations
+----------------------------------------
+Fact 11: ⚪ MISSING | Score: 0.5686
+  Ground Truth: 45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.
+  Best Chunk:   meeting the acceptable compliance threshold of `<= 0.05` however a critical non-compliance issue persists in average activity
+----------------------------------------
+
+[SUMMARY] ID 151 | Iter 8 | Total Coverage: 0.0% (0/11)
+====================================================================================================
+
+>> STARTING ID: 151 | ITERATION: 9
+Fact 1: 🟡 INDICATED | Score: 0.6280
+  Ground Truth: No process activities showed concering average compliance cost exceeding the individual thresholds.
+  Best Chunk:   primary impeding activity after applying the non-compliance cost model and updated interpretations
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5867
+  Ground Truth: There were 319 missing detections, that violate threshold
+  Best Chunk:   and 'mismatch' (115 instances) deviations
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.7035
+  Ground Truth: There were 1777 repetitive detections, that do not violate the threshold
+  Best Chunk:   exceeds the acceptable threshold of <= 0.05 repetitive deviations in 'detection' (1777)
+----------------------------------------
+Fact 4: ⚪ MISSING | Score: 0.5945
+  Ground Truth: There were 0 detection mismatches.
+  Best Chunk:   data on incidents processed
+----------------------------------------
+Fact 5: ⚪ MISSING | Score: 0.5971
+  Ground Truth: There were 544 missing activations caused by merge rules and are not process violations.
+  Best Chunk:   the non-compliance cost model and updated interpretations 'activation' has an average
+----------------------------------------
+Fact 6: 🟡 INDICATED | Score: 0.7519
+  Ground Truth: There were 1990 repetitive activations, which violate the threshold
+  Best Chunk:   of the high 'repetition' (1990 instances)
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7329
+  Ground Truth: There were 115 activation mismatches, which violate the theshold
+  Best Chunk:   (115 instances) deviations in 'activation' to implement corrective
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7063
+  Ground Truth: There were 1653 repetitive awaiting events, that do not violate the threshold
+  Best Chunk:   (1653) are now deemed acceptable due to updated thresholds
+----------------------------------------
+Fact 9: ⚪ MISSING | Score: 0.5850
+  Ground Truth: There were 4 awaiting mismatches.
+  Best Chunk:   data on incidents processed
+----------------------------------------
+Fact 10: ⚪ MISSING | Score: 0.5932
+  Ground Truth: There were 119 repetitive awaiting events, that violate the threshold
+  Best Chunk:   the primary impeding activity after applying the non-compliance
+----------------------------------------
+Fact 11: ⚪ MISSING | Score: 0.5801
+  Ground Truth: 45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.
+  Best Chunk:   assessments gather specific data on incidents processed via the n*rc variant to accurately exclude non-compliant
+----------------------------------------
+
+[SUMMARY] ID 151 | Iter 9 | Total Coverage: 0.0% (0/11)
+====================================================================================================
+
+>> STARTING ID: 151 | ITERATION: 10
+Fact 1: 🟡 INDICATED | Score: 0.6320
+  Ground Truth: No process activities showed concering average compliance cost exceeding the individual thresholds.
+  Best Chunk:   to the defined cost metric incorporating the recently tuned thresholds for repetitive detection
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7257
+  Ground Truth: There were 319 missing detections, that violate threshold
+  Best Chunk:   missing deviations (319 vs <=20) are notably
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.7269
+  Ground Truth: There were 1777 repetitive detections, that do not violate the threshold
+  Best Chunk:   the recently tuned thresholds for repetitive detection deviations (n 1777
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6033
+  Ground Truth: There were 0 detection mismatches.
+  Best Chunk:   to reduce all deviation types
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.7218
+  Ground Truth: There were 544 missing activations caused by merge rules and are not process violations.
+  Best Chunk:   significant underlying operational inefficiencies persist:\n* **activation (a):** despite low average cost missing (544
+----------------------------------------
+Fact 6: 🟡 INDICATED | Score: 0.7447
+  Ground Truth: There were 1990 repetitive activations, which violate the threshold
+  Best Chunk:   repetition (1990 vs <=500) and mismatch
+----------------------------------------
+Fact 7: 🟡 INDICATED | Score: 0.7191
+  Ground Truth: There were 115 activation mismatches, which violate the theshold
+  Best Chunk:   and mismatch (115 vs <=50) deviations remain excessively
+----------------------------------------
+Fact 8: 🟡 INDICATED | Score: 0.7224
+  Ground Truth: There were 1653 repetitive awaiting events, that do not violate the threshold
+  Best Chunk:   detection deviations (n 1777 vs `<=5000`) and repetitive awaiting activities (w 1653
+----------------------------------------
+Fact 9: 🟡 INDICATED | Score: 0.7209
+  Ground Truth: There were 4 awaiting mismatches.
+  Best Chunk:   the average time (4d
+----------------------------------------
+Fact 10: 🟡 INDICATED | Score: 0.7104
+  Ground Truth: There were 119 repetitive awaiting events, that violate the threshold
+  Best Chunk:   repetition (119 vs <=50) and mismatch (45
+----------------------------------------
+Fact 11: 🟡 INDICATED | Score: 0.7003
+  Ground Truth: 45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.
+  Best Chunk:   (45 vs <=20) deviations are significantly high with an average time (5d 22h 11min) also exceeding the non-acceptable threshold
+----------------------------------------
+
+[SUMMARY] ID 151 | Iter 10 | Total Coverage: 0.0% (0/11)
+====================================================================================================
+
+####################################################################################################
+### NEW CONTROL UNIT: 152 ###
+####################################################################################################
+
+
+>> STARTING ID: 152 | ITERATION: 1
+Fact 1: 🟡 INDICATED | Score: 0.7391
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   the average durations for detection (4d 6h 35min / 6155 min) activation (8d
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7228
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   min) activation (8d 18h 55min / 12655 min) awaiting (16d 8h 10min /
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.7295
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   min) awaiting (16d 8h 10min / 23530 min) and resolution (5d 22h 11min
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.7597
+  Ground Truth: Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.
+  Best Chunk:   and resolution (5d 22h 11min / 8531 min) critically exceed their respective non-acceptable
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6086
+  Ground Truth: No unusual temporal spikes were observed.
+  Best Chunk:   indicating severe process efficiency impediments
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5958
+  Ground Truth: Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.
+  Best Chunk:   deviation thresholds indicating internal process inefficiencies for awaiting despite repetitions (1653) being outside
+----------------------------------------
+
+[SUMMARY] ID 152 | Iter 1 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 152 | ITERATION: 2
+Fact 1: 🟡 INDICATED | Score: 0.6284
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   their non-acceptable time thresholds detection (6155 min vs >=2880 min) activation (12655 min
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6293
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   exceed their non-acceptable time thresholds detection (6155 min vs >=2880 min) activation (12655 min
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6283
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   most severely awaiting (23530 min vs >=14400 min) while certain repetitive deviations in
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6166
+  Ground Truth: Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.
+  Best Chunk:   min) resolution (8531 min vs >=4320 min) and most severely awaiting (23530 min
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6069
+  Ground Truth: No unusual temporal spikes were observed.
+  Best Chunk:   these active states still represent critical bottlenecks
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5907
+  Ground Truth: Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.
+  Best Chunk:   average durations in these active states still represent critical bottlenecks
+----------------------------------------
+
+[SUMMARY] ID 152 | Iter 2 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 152 | ITERATION: 3
+Fact 1: 🟡 INDICATED | Score: 0.6276
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   'detection' (6155 minutes) all substantially exceeding their non-acceptable thresholds (14400 7200 4320 and 2880 minutes respectively)
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6282
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   average activity durations reveals significant efficiency impediments with 'awaiting' (23530 minutes) 'activation' (12655
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6269
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   average activity durations reveals significant efficiency impediments with 'awaiting' (23530 minutes) 'activation' (12655
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6288
+  Ground Truth: Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.
+  Best Chunk:   (8531 minutes) and 'detection' (6155 minutes) all substantially exceeding their non-acceptable thresholds (14400
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6098
+  Ground Truth: No unusual temporal spikes were observed.
+  Best Chunk:   such as improving external stakeholder management
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5964
+  Ground Truth: Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.
+  Best Chunk:   average activity durations reveals significant efficiency impediments with 'awaiting' (23530 minutes)
+----------------------------------------
+
+[SUMMARY] ID 152 | Iter 3 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 152 | ITERATION: 4
+Fact 1: 🟡 INDICATED | Score: 0.6439
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   average activity durations for detection (n 4d 6h 35min exceeding nonacceptabletime of 2880min)
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6342
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   average activity durations for detection (n 4d 6h 35min exceeding nonacceptabletime of 2880min) activation (a 8d 18h 55min
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6363
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   awaiting (w 16d 8h 10min exceeding nonacceptabletime of 14400min) and resolution (r 5d
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6404
+  Ground Truth: Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.
+  Best Chunk:   resolution (r 5d 22h 11min exceeding nonacceptabletime of 4320min) all represent critical process
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6166
+  Ground Truth: No unusual temporal spikes were observed.
+  Best Chunk:   all represent critical process efficiency impediments
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5828
+  Ground Truth: Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.
+  Best Chunk:   (r) implement internal process streamlining resource optimization and training to reduce average activity
+----------------------------------------
+
+[SUMMARY] ID 152 | Iter 4 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 152 | ITERATION: 6
+Fact 1: 🟡 INDICATED | Score: 0.6079
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   35min) activation (8d 18h 55min) awaiting (16d 8h 10min) and resolution (5d 22h
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6279
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   8h 10min) and resolution (5d 22h 11min) remain critical efficiency impediments as they
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6354
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   10min) and resolution (5d 22h 11min) remain critical efficiency impediments as they significantly exceed
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6347
+  Ground Truth: Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.
+  Best Chunk:   resolution (5d 22h 11min) remain critical efficiency impediments as they significantly exceed their
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6107
+  Ground Truth: No unusual temporal spikes were observed.
+  Best Chunk:   to streamline core incident handling activities
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5926
+  Ground Truth: Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.
+  Best Chunk:   thresholds for detection investigate factors beyond repetitive triggers that prolong the 4-day
+----------------------------------------
+
+[SUMMARY] ID 152 | Iter 6 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 152 | ITERATION: 8
+Fact 1: 🟡 INDICATED | Score: 0.6259
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   average activity durations indicate significant efficiency impediments across multiple stages detection (6155 min vs >=2880 min non-acceptable) activation (12655
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6272
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   average activity durations indicate significant efficiency impediments across multiple stages detection (6155 min vs >=2880 min non-acceptable) activation (12655
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6108
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   min non-acceptable) awaiting (23530 min vs >=14400 min non-acceptable) and resolution (8531 min
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6247
+  Ground Truth: Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.
+  Best Chunk:   (8531 min vs >=4320 min non-acceptable) while the cost metric for all activities
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6062
+  Ground Truth: No unusual temporal spikes were observed.
+  Best Chunk:   not adequately reflect the severe time inefficiencies
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5913
+  Ground Truth: Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.
+  Best Chunk:   average activity durations indicate significant efficiency impediments across multiple stages detection (6155 min
+----------------------------------------
+
+[SUMMARY] ID 152 | Iter 8 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+>> STARTING ID: 152 | ITERATION: 10
+Fact 1: 🟡 INDICATED | Score: 0.6294
+  Ground Truth: Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.
+  Best Chunk:   remain a critical impediment to process efficiency detection (6155 min) activation (12655 min) awaiting
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6310
+  Ground Truth: Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.
+  Best Chunk:   average activity durations remain a critical impediment to process efficiency detection (6155 min) activation (12655 min)
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6300
+  Ground Truth: Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.
+  Best Chunk:   critical impediment to process efficiency detection (6155 min) activation (12655 min) awaiting (23530
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6304
+  Ground Truth: Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.
+  Best Chunk:   resolution (8531 min) all significantly exceed their non-acceptable time thresholds of 2880 min
+----------------------------------------
+Fact 5: 🟡 INDICATED | Score: 0.6148
+  Ground Truth: No unusual temporal spikes were observed.
+  Best Chunk:   a critical impediment to process efficiency
+----------------------------------------
+Fact 6: ⚪ MISSING | Score: 0.5987
+  Ground Truth: Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.
+  Best Chunk:   durations in these stages (especially "awaiting" at over 16 days) severely impact
+----------------------------------------
+
+[SUMMARY] ID 152 | Iter 10 | Total Coverage: 0.0% (0/6)
+====================================================================================================
+
+####################################################################################################
+### NEW CONTROL UNIT: 153 ###
+####################################################################################################
+
+
+>> STARTING ID: 153 | ITERATION: 1
+Fact 1: 🟡 INDICATED | Score: 0.7647
+  Ground Truth: Critical process severity incidents are 7 in total
+  Best Chunk:   7 listed incidents are critically non-compliant
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.8307
+  Ground Truth: INC0033952 has the highest assigned compliance cost with 0.81
+  Best Chunk:   inc0033952 showing the highest cost at 0.81 a technical
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5527
+  Ground Truth: INC0025696, INC0026744 and INC0032450 show cost of 0.41
+  Best Chunk:   with inc0033952 showing the highest
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6465
+  Ground Truth: This critical process severity requires deeper individual incident analysis.
+  Best Chunk:   proper deep dive and targeted remediation provide detailed breakdowns
+----------------------------------------
+
+[SUMMARY] ID 153 | Iter 1 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 153 | ITERATION: 2
+Fact 1: 🟡 INDICATED | Score: 0.7500
+  Ground Truth: Critical process severity incidents are 7 in total
+  Best Chunk:   top 7 incidents led by
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7974
+  Ground Truth: INC0033952 has the highest assigned compliance cost with 0.81
+  Best Chunk:   inc0033952 with a non-compliance cost of 0.81 are
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5577
+  Ground Truth: INC0025696, INC0026744 and INC0032450 show cost of 0.41
+  Best Chunk:   patterns like `symptom 491` `location 204` and `category 46`
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6451
+  Ground Truth: This critical process severity requires deeper individual incident analysis.
+  Best Chunk:   the cost metric technical analysis consistently reveals
+----------------------------------------
+
+[SUMMARY] ID 153 | Iter 2 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 153 | ITERATION: 3
+Fact 1: 🟡 INDICATED | Score: 0.6137
+  Ground Truth: Critical process severity incidents are 7 in total
+  Best Chunk:   deep dive and targeted remediation granular
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6269
+  Ground Truth: INC0033952 has the highest assigned compliance cost with 0.81
+  Best Chunk:   0.81 all fall within the 'critical' compliance
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5539
+  Ground Truth: INC0025696, INC0026744 and INC0032450 show cost of 0.41
+  Best Chunk:   0.31 to 0.81 all fall
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6369
+  Ground Truth: This critical process severity requires deeper individual incident analysis.
+  Best Chunk:   and targeted remediation granular data on the specific deviations
+----------------------------------------
+
+[SUMMARY] ID 153 | Iter 3 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 153 | ITERATION: 4
+Fact 1: 🟡 INDICATED | Score: 0.6095
+  Ground Truth: Critical process severity incidents are 7 in total
+  Best Chunk:   priority 1) incident handling to resolve true process drifts
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7768
+  Ground Truth: INC0033952 has the highest assigned compliance cost with 0.81
+  Best Chunk:   inc0033952 at 0.81) posing severe risks from process deviations as
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5628
+  Ground Truth: INC0025696, INC0026744 and INC0032450 show cost of 0.41
+  Best Chunk:   by cost (e.g inc0033952 at 0.81) posing severe
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6307
+  Ground Truth: This critical process severity requires deeper individual incident analysis.
+  Best Chunk:   cost are outside security operator control) from process error
+----------------------------------------
+
+[SUMMARY] ID 153 | Iter 4 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 153 | ITERATION: 5
+Fact 1: 🟡 INDICATED | Score: 0.6146
+  Ground Truth: Critical process severity incidents are 7 in total
+  Best Chunk:   the 109 incidents with missing symptom data as
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7853
+  Ground Truth: INC0033952 has the highest assigned compliance cost with 0.81
+  Best Chunk:   most critical incidents such as inc0033952 (cost 0.81)
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6546
+  Ground Truth: INC0025696, INC0026744 and INC0032450 show cost of 0.41
+  Best Chunk:   as inc0033952 (cost 0.81) and inc0025696
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6325
+  Ground Truth: This critical process severity requires deeper individual incident analysis.
+  Best Chunk:   indicating significant process deviations these risks could
+----------------------------------------
+
+[SUMMARY] ID 153 | Iter 5 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 153 | ITERATION: 6
+Fact 1: 🟡 INDICATED | Score: 0.6137
+  Ground Truth: Critical process severity incidents are 7 in total
+  Best Chunk:   seven incidents are critically non-compliant
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6364
+  Ground Truth: INC0033952 has the highest assigned compliance cost with 0.81
+  Best Chunk:   to 0.81 falling within the new critical
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5511
+  Ground Truth: INC0025696, INC0026744 and INC0032450 show cost of 0.41
+  Best Chunk:   from 0.31 to 0.81 falling
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6445
+  Ground Truth: This critical process severity requires deeper individual incident analysis.
+  Best Chunk:   n*rc variants) to accurately identify actionable process errors
+----------------------------------------
+
+[SUMMARY] ID 153 | Iter 6 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 153 | ITERATION: 7
+Fact 1: 🟡 INDICATED | Score: 0.6255
+  Ground Truth: Critical process severity incidents are 7 in total
+  Best Chunk:   priority location category) to these individual critical incidents would
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.8295
+  Ground Truth: INC0033952 has the highest assigned compliance cost with 0.81
+  Best Chunk:   inc0033952 having the highest non-compliance cost at 0.81
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.8337
+  Ground Truth: INC0025696, INC0026744 and INC0032450 show cost of 0.41
+  Best Chunk:   inc0025696 inc0026744 and inc0032450 at 0.41 based
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6437
+  Ground Truth: This critical process severity requires deeper individual incident analysis.
+  Best Chunk:   the updated compliance interpretations regarding repetitive detection/awaiting activities
+----------------------------------------
+
+[SUMMARY] ID 153 | Iter 7 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 153 | ITERATION: 8
+Fact 1: 🟡 INDICATED | Score: 0.7452
+  Ground Truth: Critical process severity incidents are 7 in total
+  Best Chunk:   top 7 incidents with costs
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6450
+  Ground Truth: INC0033952 has the highest assigned compliance cost with 0.81
+  Best Chunk:   0.81 are critically non-compliant however this
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5517
+  Ground Truth: INC0025696, INC0026744 and INC0032450 show cost of 0.41
+  Best Chunk:   0.31 to 0.81 are critically
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6448
+  Ground Truth: This critical process severity requires deeper individual incident analysis.
+  Best Chunk:   or mismatches remediation requires refining the compliance model
+----------------------------------------
+
+[SUMMARY] ID 153 | Iter 8 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 153 | ITERATION: 9
+Fact 1: 🟡 INDICATED | Score: 0.6134
+  Ground Truth: Critical process severity incidents are 7 in total
+  Best Chunk:   updated cost metric falling into the critical severity
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7967
+  Ground Truth: INC0033952 has the highest assigned compliance cost with 0.81
+  Best Chunk:   inc0033952 with a cost of 0.81 demonstrates severe process deviations
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5571
+  Ground Truth: INC0025696, INC0026744 and INC0032450 show cost of 0.41
+  Best Chunk:   0.45 c missing 0.3 r
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6395
+  Ground Truth: This critical process severity requires deeper individual incident analysis.
+  Best Chunk:   a systemic process drift for these specific types
+----------------------------------------
+
+[SUMMARY] ID 153 | Iter 9 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 153 | ITERATION: 10
+Fact 1: 🟡 INDICATED | Score: 0.7500
+  Ground Truth: Critical process severity incidents are 7 in total
+  Best Chunk:   7 incidents with critically high non-compliance
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6472
+  Ground Truth: INC0033952 has the highest assigned compliance cost with 0.81
+  Best Chunk:   0.81) indicating significant process risks however applying the
+----------------------------------------
+Fact 3: ⚪ MISSING | Score: 0.5501
+  Ground Truth: INC0025696, INC0026744 and INC0032450 show cost of 0.41
+  Best Chunk:   costs (0.31 to 0.81) indicating
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6403
+  Ground Truth: This critical process severity requires deeper individual incident analysis.
+  Best Chunk:   without granular cost data per deviation
+----------------------------------------
+
+[SUMMARY] ID 153 | Iter 10 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+####################################################################################################
+### NEW CONTROL UNIT: 154 ###
+####################################################################################################
+
+
+>> STARTING ID: 154 | ITERATION: 1
+Fact 1: 🟡 INDICATED | Score: 0.6070
+  Ground Truth: Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.
+  Best Chunk:   goal however 104 incidents lacking symptom data ("none") severely hinder root
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.7428
+  Ground Truth: Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.
+  Best Chunk:   issues 3 **prioritize critical incidents:** perform a targeted technical deep dive
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6456
+  Ground Truth: High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.
+  Best Chunk:   (79 times) and categories 46 (102 times) 42 (67 times) 26 (61 times) satisfying the control's reporting goal however 104 incidents lacking symptom data
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6376
+  Ground Truth: Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.
+  Best Chunk:   2 **focus technical investigations:** conduct in-depth root cause analysis on incidents with symptom 491 and those affecting locations 204 161 143 and categories 46 42 26
+----------------------------------------
+
+[SUMMARY] ID 154 | Iter 1 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 154 | ITERATION: 2
+Fact 1: 🟡 INDICATED | Score: 0.6247
+  Ground Truth: Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.
+  Best Chunk:   control "report technical analysis and most affected categories" is partially
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5850
+  Ground Truth: Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.
+  Best Chunk:   control "report technical analysis and most affected categories" is partially met
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6412
+  Ground Truth: High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.
+  Best Chunk:   161 (82) and categories 46 (62) and 26 (59) also appear frequently **required remediation:** to achieve full
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6276
+  Ground Truth: Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.
+  Best Chunk:   an analyst an aggregation of this data reveals that symptom 491 (198 occurrences) location 204 (172 occurrences) and category
+----------------------------------------
+
+[SUMMARY] ID 154 | Iter 2 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 154 | ITERATION: 3
+Fact 1: 🟡 INDICATED | Score: 0.6208
+  Ground Truth: Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.
+  Best Chunk:   for the "report technical analysis and most affected categories" control
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6003
+  Ground Truth: Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.
+  Best Chunk:   with 65 incidents lacking recorded symptoms which severely hinders comprehensive technical analysis and root
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6459
+  Ground Truth: High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.
+  Best Chunk:   most affected categories" control technical statistics indicate symptom 491 (172 incidents) locations 204 (111 incidents) and 161 (104 incidents) and categories 46
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6350
+  Ground Truth: Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.
+  Best Chunk:   the "report technical analysis and most affected categories" control technical statistics indicate symptom 491 (172 incidents) locations 204 (111 incidents) and 161 (104
+----------------------------------------
+
+[SUMMARY] ID 154 | Iter 3 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 154 | ITERATION: 4
+Fact 1: 🟡 INDICATED | Score: 0.6226
+  Ground Truth: Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.
+  Best Chunk:   the "report technical analysis and most affected categories" control's objective no remediation is
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5966
+  Ground Truth: Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.
+  Best Chunk:   fulfilling the "report technical analysis and most affected categories" control's objective no remediation is required
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6290
+  Ground Truth: High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.
+  Best Chunk:   frequent symptom is 'none' (70 occurrences) followed by symptom 491 (67 occurrences) category 46 (104 occurrences) and location 204 (171
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6214
+  Ground Truth: Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.
+  Best Chunk:   category 46 (104 occurrences) and location 204 (171 occurrences) are the most frequently affected this statistical breakdown enables the deduction of frequently targeted it assets
+----------------------------------------
+
+[SUMMARY] ID 154 | Iter 4 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 154 | ITERATION: 5
+Fact 1: 🟡 INDICATED | Score: 0.6227
+  Ground Truth: Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.
+  Best Chunk:   control 'report technical analysis and most affected categories' is adequately
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5998
+  Ground Truth: Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.
+  Best Chunk:   high-cost incidents this analysis must distinguish true process errors from the newly defined acceptable
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6336
+  Ground Truth: High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.
+  Best Chunk:   491) locations (e.g 204) and categories (e.g 42 46 23 53 26) which allows for deduction of frequently targeted it assets **required remediation:**
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6191
+  Ground Truth: Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.
+  Best Chunk:   adequately met as the provided technical analysis data clearly identifies prevalent symptoms (e.g 491) locations (e.g 204) and categories (e.g 42
+----------------------------------------
+
+[SUMMARY] ID 154 | Iter 5 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 154 | ITERATION: 6
+Fact 1: 🟡 INDICATED | Score: 0.6088
+  Ground Truth: Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.
+  Best Chunk:   for technical deduction and cannot be derived from the updated process compliance metrics or deviation
+----------------------------------------
+Fact 2: 🟡 INDICATED | Score: 0.6046
+  Ground Truth: Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.
+  Best Chunk:   the 70 incidents with unrecorded symptoms (`none`) to ensure comprehensive data
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6316
+  Ground Truth: High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.
+  Best Chunk:   reporting of technical statistics as required by the control analysis shows that symptom `491` (202 occurrences) category `46` (82 occurrences) and location `204` (154
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6273
+  Ground Truth: Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.
+  Best Chunk:   reporting of technical statistics as required by the control analysis shows that symptom `491` (202 occurrences) category `46` (82 occurrences) and location
+----------------------------------------
+
+[SUMMARY] ID 154 | Iter 6 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 154 | ITERATION: 7
+Fact 1: 🟡 INDICATED | Score: 0.6099
+  Ground Truth: Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.
+  Best Chunk:   for process compliance due to adjusted thresholds and merge rules
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5951
+  Ground Truth: Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.
+  Best Chunk:   also showing significant non-compliance from a technical analysis perspective symptom 491 (172 occurrences) category
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6387
+  Ground Truth: High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.
+  Best Chunk:   non-compliance from a technical analysis perspective symptom 491 (172 occurrences) category 46 (55 occurrences) and location 204 (110
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6308
+  Ground Truth: Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.
+  Best Chunk:   also showing significant non-compliance from a technical analysis perspective symptom 491 (172 occurrences) category 46 (55 occurrences) and location 204 (110
+----------------------------------------
+
+[SUMMARY] ID 154 | Iter 7 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 154 | ITERATION: 8
+Fact 1: 🟡 INDICATED | Score: 0.6062
+  Ground Truth: Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.
+  Best Chunk:   of incidents with 'none' for symptom as this data quality issue
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5959
+  Ground Truth: Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.
+  Best Chunk:   the 'cost' metric indicates high non-compliance with all identified incidents falling into the
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6448
+  Ground Truth: High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.
+  Best Chunk:   symptom 491 (104 occurrences) and 'none' (75 occurrences) as most frequent with location 204 (119 incidents) and category 46 (71
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6399
+  Ground Truth: Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.
+  Best Chunk:   0.81) technical analysis reveals symptom 491 (104 occurrences) and 'none' (75 occurrences) as most frequent with location 204 (119 incidents) and category
+----------------------------------------
+
+[SUMMARY] ID 154 | Iter 8 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 154 | ITERATION: 9
+Fact 1: 🟡 INDICATED | Score: 0.6053
+  Ground Truth: Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.
+  Best Chunk:   attributes while recent adjustments to compliance metrics and interpretations for repetitive process deviations
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5954
+  Ground Truth: Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.
+  Best Chunk:   most frequently observed technical attributes while recent adjustments to compliance metrics and interpretations
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6326
+  Ground Truth: High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.
+  Best Chunk:   with categories '53' and '26') and location '204' (122 occurrences) are the most frequently observed technical attributes while recent
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6307
+  Ground Truth: Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.
+  Best Chunk:   (100 occurrences tied with categories '53' and '26') and location '204' (122 occurrences) are the most frequently observed technical attributes while recent adjustments to compliance metrics
+----------------------------------------
+
+[SUMMARY] ID 154 | Iter 9 | Total Coverage: 0.0% (0/4)
+====================================================================================================
+
+>> STARTING ID: 154 | ITERATION: 10
+Fact 1: 🟡 INDICATED | Score: 0.6150
+  Ground Truth: Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.
+  Best Chunk:   '491' and prioritize investigations for it assets and infrastructure in
+----------------------------------------
+Fact 2: ⚪ MISSING | Score: 0.5932
+  Ground Truth: Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.
+  Best Chunk:   for data quality by enforcing mandatory symptom reporting to eliminate "none" entries
+----------------------------------------
+Fact 3: 🟡 INDICATED | Score: 0.6454
+  Ground Truth: High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.
+  Best Chunk:   cause analysis for symptom '491' and prioritize investigations for it assets and infrastructure in locations '204' '143' '161' and categories '46'
+----------------------------------------
+Fact 4: 🟡 INDICATED | Score: 0.6373
+  Ground Truth: Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.
+  Best Chunk:   cause analysis for symptom '491' and prioritize investigations for it assets and infrastructure in locations '204' '143' '161' and categories
+----------------------------------------
+
+[SUMMARY] ID 154 | Iter 10 | Total Coverage: 0.0% (0/4)
+====================================================================================================

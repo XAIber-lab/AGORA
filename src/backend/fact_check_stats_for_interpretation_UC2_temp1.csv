@@ -1,0 +1,412 @@
+control_id,iteration,fact_index,mover_score,is_found_binary,status,fact_text,evidence_found
+148,1,1,0.8602,1,FOUND,Active incidents decreased from 1963 to 451.,active incidents decreased positively from 1963 to 451
+148,1,2,0.5804,0,MISSING,The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.,indicating a significant failure to meet contractual obligations while active incidents decreased positively
+148,1,3,0.7035,0,INDICATED,7 incidents had critical severity,103 high and 7 critical)
+148,1,4,0.7359,0,INDICATED,103 incidents had high severity.,low severity with 103
+148,1,5,0.5937,0,MISSING,The majority of incidents had low severity.,within acceptable limits according to the revised
+148,1,6,0.5729,0,MISSING,"A mass closure of active incidents began on Friday, June 3.",a significant failure to meet contractual obligations while active incidents decreased
+148,1,7,0.7238,0,INDICATED,Average cost was 0.047 which is in the low process serverity range.,0.0474** falling within acceptable limits according to the revised thresholds however the **sla attainment
+148,1,8,0.7396,0,INDICATED,The average SLA was very low with 44.43%.,remains critically low at 44.43%** indicating a significant failure
+148,1,9,0.5494,0,MISSING,Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).,1598 incidents were closed (predominantly low severity with 103 high and 7
+148,2,1,0.894,1,FOUND,Active incidents decreased from 1963 to 451.,active incidents significantly decreased from 1963 to 451
+148,2,2,0.5745,0,MISSING,The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.,with an average non-compliance cost of 0.047 categorized as low severity while active incidents
+148,2,3,0.5863,0,MISSING,7 incidents had critical severity,categorized as low severity
+148,2,4,0.6081,0,INDICATED,103 incidents had high severity.,management process demonstrates high compliance
+148,2,5,0.5969,0,MISSING,The majority of incidents had low severity.,the incident management process demonstrates high compliance
+148,2,6,0.5749,0,MISSING,"A mass closure of active incidents began on Friday, June 3.",a critical concern is the low sla adherence of
+148,2,7,0.7294,0,INDICATED,Average cost was 0.047 which is in the low process serverity range.,of 0.047 categorized as low severity while active incidents
+148,2,8,0.7682,0,INDICATED,The average SLA was very low with 44.43%.,concern is the low sla adherence of 44.43%
+148,2,9,0.6065,0,INDICATED,Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).,average resolution time of 21807.82 minutes to ensure contractual obligations are met
+148,3,1,0.8103,0,INDICATED,Active incidents decreased from 1963 to 451.,incidents were significantly reduced from 1963 to 451
+148,3,2,0.5704,0,MISSING,The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.,directly impacting contractual obligations a remediation is required to investigate the root causes of the lengthy
+148,3,3,0.7996,0,INDICATED,7 incidents had critical severity,and 7 critical severity incidents)
+148,3,4,0.7336,0,INDICATED,103 incidents had high severity.,103 high and 7 critical severity
+148,3,5,0.5833,0,MISSING,The majority of incidents had low severity.,is required to investigate the root causes
+148,3,6,0.5702,0,MISSING,"A mass closure of active incidents began on Friday, June 3.",a critical issue remains the consistently low sla adherence of
+148,3,7,0.7276,0,INDICATED,Average cost was 0.047 which is in the low process serverity range.,0.0474** which falls within acceptable limits for a manager's overview active incidents were significantly
+148,3,8,0.7429,0,INDICATED,The average SLA was very low with 44.43%.,the consistently low sla adherence of only **44.43%**
+148,3,9,0.5931,0,MISSING,Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).,causes of the lengthy average resolution time (approximately 15 days) to improve sla
+148,4,1,0.9523,1,FOUND,Active incidents decreased from 1963 to 451.,active incidents decreasing from 1963 to 451
+148,4,2,0.5709,0,MISSING,The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.,(110 incidents) incurring high or critical compliance costs especially considering the tunings for specific deviation types
+148,4,3,0.5883,0,MISSING,7 incidents had critical severity,1598 incidents successfully closed
+148,4,4,0.6058,0,INDICATED,103 incidents had high severity.,incident management demonstrated positive progress
+148,4,5,0.5979,0,MISSING,The majority of incidents had low severity.,the overall average process compliance cost is low
+148,4,6,0.5679,0,MISSING,"A mass closure of active incidents began on Friday, June 3.",incident management demonstrated positive progress with active incidents
+148,4,7,0.7379,0,INDICATED,Average cost was 0.047 which is in the low process serverity range.,the period the overall average process compliance cost is low at 0.0474
+148,4,8,0.749,0,INDICATED,The average SLA was very low with 44.43%.,however sla adherence remains critically low at 44.43%
+148,4,9,0.595,0,MISSING,Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).,44.43% and the average time to resolve incidents is a lengthy 15.14
+148,5,1,0.894,1,FOUND,Active incidents decreased from 1963 to 451.,active incidents significantly decreased from 1963 to 451
+148,5,2,0.5757,0,MISSING,The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.,indicating strong process adherence after accounting for acceptable deviations like repetitive detections (1777
+148,5,3,0.5913,0,MISSING,7 incidents had critical severity,operationally active incidents significantly decreased
+148,5,4,0.6015,0,INDICATED,103 incidents had high severity.,incidents met their service level
+148,5,5,0.5839,0,MISSING,The majority of incidents had low severity.,the overall process non-compliance cost is low
+148,5,6,0.5662,0,MISSING,"A mass closure of active incidents began on Friday, June 3.",indicating strong process adherence after accounting for acceptable deviations like repetitive detections (1777
+148,5,7,0.725,0,INDICATED,Average cost was 0.047 which is in the low process serverity range.,is low at 0.0474 indicating strong process adherence after accounting
+148,5,8,0.7326,0,INDICATED,The average SLA was very low with 44.43%.,however a critical issue remains as only 44.43%
+148,5,9,0.547,0,MISSING,Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).,(1653 instances) operationally active incidents significantly decreased from 1963 to 451
+148,6,1,0.9029,1,FOUND,Active incidents decreased from 1963 to 451.,active incidents decreased substantially from 1963 to 451
+148,6,2,0.5892,0,MISSING,The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.,the incident management process shows a significant improvement in overall compliance reflected by a
+148,6,3,0.5816,0,MISSING,7 incidents had critical severity,the incident management process
+148,6,4,0.5926,0,MISSING,103 incidents had high severity.,process shows a significant improvement
+148,6,5,0.6019,0,INDICATED,The majority of incidents had low severity.,the incident management process shows a significant
+148,6,6,0.5707,0,MISSING,"A mass closure of active incidents began on Friday, June 3.",remains critically low at 44.43% indicating a persistent failure
+148,6,7,0.7424,0,INDICATED,Average cost was 0.047 which is in the low process serverity range.,0.047 placing it in the 'low' severity range for cost despite this adherence
+148,6,8,0.7388,0,INDICATED,The average SLA was very low with 44.43%.,critically low at 44.43% indicating a persistent failure
+148,6,9,0.5796,0,MISSING,Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).,average time to resolve incidents is still high at 15.14 days
+148,7,1,0.8938,1,FOUND,Active incidents decreased from 1963 to 451.,active incidents decreased significantly from 1963 to 451
+148,7,2,0.5716,0,MISSING,The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.,and addressing specific bottlenecks causing these prolonged resolution times to ensure contractual obligations
+148,7,3,0.5946,0,MISSING,7 incidents had critical severity,1598 incidents closed largely low severity
+148,7,4,0.6135,0,INDICATED,103 incidents had high severity.,1598 incidents closed largely low severity
+148,7,5,0.5839,0,MISSING,The majority of incidents had low severity.,the overall process non-compliance cost is low
+148,7,6,0.5704,0,MISSING,"A mass closure of active incidents began on Friday, June 3.",low at 0.0474 indicating strong adherence to defined process
+148,7,7,0.725,0,INDICATED,Average cost was 0.047 which is in the low process serverity range.,although the overall process non-compliance cost is low at 0.0474 indicating
+148,7,8,0.737,0,INDICATED,The average SLA was very low with 44.43%.,deviation exclusions) only 44.43% of incidents met their sla
+148,7,9,0.6423,0,INDICATED,Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).,average resolution time of approximately 15.14 days (21807.82 minutes) remediation should
+148,8,1,0.5701,0,MISSING,Active incidents decreased from 1963 to 451.,discrepancy between 5 new and 1598 closed incidents
+148,8,2,0.5838,0,MISSING,The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.,a 0% rate for assigned-to-resolved-by suggests severe issues with incident ownership and handoffs
+148,8,3,0.5852,0,MISSING,7 incidents had critical severity,critical operational performance metrics for
+148,8,4,0.589,0,MISSING,103 incidents had high severity.,operational performance metrics for the
+148,8,5,0.593,0,MISSING,The majority of incidents had low severity.,the incident management process shows a commendably low
+148,8,6,0.5765,0,MISSING,"A mass closure of active incidents began on Friday, June 3.",attainment and resolution times alongside an urgent review of incident ownership
+148,8,7,0.7217,0,INDICATED,Average cost was 0.047 which is in the low process serverity range.,overall compliance cost of 0.0474 indicating strong adherence to process steps when accounting
+148,8,8,0.755,0,INDICATED,The average SLA was very low with 44.43%.,period are unsatisfactory with only 44.43% of slas
+148,8,9,0.6266,0,INDICATED,Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).,an average resolution time of over 15 days (21807.82 minutes) furthermore
+148,9,1,0.7824,0,INDICATED,Active incidents decreased from 1963 to 451.,trend decreasing significantly from 1963 to 451
+148,9,2,0.572,0,MISSING,The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.,the number of active incidents has shown a positive trend decreasing significantly from
+148,9,3,0.6011,0,INDICATED,7 incidents had critical severity,of high or critical severity
+148,9,4,0.6038,0,INDICATED,103 incidents had high severity.,451 within the reporting period
+148,9,5,0.6095,0,INDICATED,The majority of incidents had low severity.,over half of all incidents are not
+148,9,6,0.5738,0,MISSING,"A mass closure of active incidents began on Friday, June 3.",to significantly improve sla compliance across all incidents
+148,9,7,0.7222,0,INDICATED,Average cost was 0.047 which is in the low process serverity range.,measured by non-compliance cost is excellent at 0.0474 categorized
+148,9,8,0.7646,0,INDICATED,The average SLA was very low with 44.43%.,the consistently low sla adherence rate of 44.43%
+148,9,9,0.5502,0,MISSING,Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).,only 6.88% of closed incidents were of high or critical severity however a critical
+148,10,1,0.8103,0,INDICATED,Active incidents decreased from 1963 to 451.,incidents were significantly reduced from 1963 to 451
+148,10,2,0.5795,0,MISSING,The decrease in active incidents suggests mass incidents in the previous month or a resolved backlog.,indicating high adherence to the reference model with repetitive detection and awaiting deviations falling within
+148,10,3,0.732,0,INDICATED,7 incidents had critical severity,incidents were closed (including 7 critical
+148,10,4,0.711,0,INDICATED,103 incidents had high severity.,were closed (including 7 critical 103
+148,10,5,0.5958,0,MISSING,The majority of incidents had low severity.,indicating high adherence to the reference model
+148,10,6,0.5712,0,MISSING,"A mass closure of active incidents began on Friday, June 3.",0.0474** indicating high adherence to the reference model with repetitive detection
+148,10,7,0.7299,0,INDICATED,Average cost was 0.047 which is in the low process serverity range.,of 0.0474** indicating high adherence to the reference model with repetitive detection
+148,10,8,0.7408,0,INDICATED,The average SLA was very low with 44.43%.,compliance only **44.43% of slas were
+148,10,9,0.6729,0,INDICATED,Average time to resolve incidents was 15 days 3 hours 27 minutes (21807 minutes).,average time to resolve incidents of 21807.82 minutes (~15.14 days)** active
+149,1,1,0.5894,0,MISSING,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,10min) and 'resolution' (5d 22h 11min) critically exceed non-acceptable thresholds furthermore 'activation' shows
+149,1,2,0.6336,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,8h 10min) and 'resolution' (5d 22h 11min) critically exceed non-acceptable thresholds furthermore 'activation'
+149,1,3,0.6402,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,10min) and 'resolution' (5d 22h 11min) critically exceed non-acceptable thresholds furthermore 'activation' shows
+149,1,4,0.6089,0,INDICATED,Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).,considered process errors significant non-compliance persists average durations for 'activation' (8d 18h 55min)
+149,1,5,0.5938,0,MISSING,The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.,"and ""n*rc"" variants are not considered process errors significant non-compliance persists average durations for"
+149,1,6,0.5827,0,MISSING,The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.,'detection' and 544 missing 'activation' activities to ensure proper process initiation and logging
+149,2,1,0.6331,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,critical issues persist with most states exceeding non-acceptable average durations 'detection' (4d 6h 35min)
+149,2,2,0.6255,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,8h 10min) and 'resolution' (5d 22h 11min) furthermore 544 missing 'activation' activities 1990
+149,2,3,0.6345,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,10min) and 'resolution' (5d 22h 11min) furthermore 544 missing 'activation' activities 1990 repetitive
+149,2,4,0.6049,0,INDICATED,Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).,8h 10min) and 'resolution' (5d 22h 11min) furthermore 544 missing 'activation' activities 1990
+149,2,5,0.5963,0,MISSING,The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.,remediation is required to enforce sequential process adherence particularly preventing direct 'detection'
+149,2,6,0.5935,0,MISSING,The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.,the incident management process exhibits significant non-compliance despite the re-interpretation of 'detection' and
+149,3,1,0.5791,0,MISSING,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,average 'awaiting' state duration of 16 days far exceeds the 10-day non-acceptable threshold
+149,3,2,0.5785,0,MISSING,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,average 'awaiting' state duration of 16 days far exceeds the 10-day non-acceptable threshold
+149,3,3,0.6258,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,average 'awaiting' state duration of 16 days far exceeds the 10-day non-acceptable threshold
+149,3,4,0.5502,0,MISSING,Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).,average 'awaiting' state duration of 16 days far exceeds the 10-day non-acceptable threshold
+149,3,5,0.5949,0,MISSING,The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.,the excessive average duration of the 'awaiting' state despite its external dependency as it critically impacts
+149,3,6,0.589,0,MISSING,The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.,the incident management process exhibits significant compliance issues critical deviations include frequent missing
+149,4,1,0.644,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,the cost metric average state durations remain critically high for 'detection' (4d 6h 35min)
+149,4,2,0.6326,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,8h 10min) and 'resolution' (5d 22h 11min) all significantly exceeding non-acceptable thresholds critical
+149,4,3,0.6383,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,10min) and 'resolution' (5d 22h 11min) all significantly exceeding non-acceptable thresholds critical process deviations
+149,4,4,0.6073,0,INDICATED,Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).,average state durations remain critically high for 'detection' (4d 6h 35min) 'activation' (8d
+149,4,5,0.5972,0,MISSING,The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.,a critical level of non-compliance based on the cost metric average state durations remain critically high
+149,4,6,0.5793,0,MISSING,The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.,these persistent prolonged state durations and critical deviations particularly focusing on 'detection' 'activation' and 'resolution' to enforce process adherence
+149,5,1,0.6415,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,critical bottlenecks persist in core process states average durations for detection (4d 6h 35min)
+149,5,2,0.6273,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,persist in core process states average durations for detection (4d 6h 35min) activation (8d
+149,5,3,0.6313,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,persist in core process states average durations for detection (4d 6h 35min) activation (8d
+149,5,4,0.6032,0,INDICATED,Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).,in core process states average durations for detection (4d 6h 35min) activation (8d
+149,5,5,0.6019,0,INDICATED,The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.,the incident management process shows moderate compliance with significant performance issues
+149,5,6,0.5955,0,MISSING,The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.,the incident management process shows moderate compliance with significant performance issues while recent clarifications mitigate concerns
+149,6,1,0.6226,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,(a 115) and 'resolution' (r 45) all critically surpassing acceptable thresholds furthermore average durations for 'detection' (4d 6h)
+149,6,2,0.613,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,(16d 8h) and 'resolution' (5d 22h) are critically prolonged indicating severe bottlenecks urgent
+149,6,3,0.6159,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,(r 45) all critically surpassing acceptable thresholds furthermore average durations for 'detection' (4d 6h) 'activation' (8d
+149,6,4,0.5993,0,MISSING,Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).,(16d 8h) and 'resolution' (5d 22h) are critically prolonged indicating severe bottlenecks urgent
+149,6,5,0.6019,0,INDICATED,The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.,the incident management process exhibits critical non-compliance with a calculated cost
+149,6,6,0.5897,0,MISSING,The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.,the incident management process exhibits critical non-compliance with a calculated cost of 140.04 significantly exceeding the critical threshold
+149,7,1,0.6343,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,and process explanations significant compliance concerns persist average durations for 'detection' (4d 6h 35min)
+149,7,2,0.636,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,8h 10min) and 'resolution' (5d 22h 11min) remain critically high severely exceeding non-acceptable thresholds
+149,7,3,0.6427,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,10min) and 'resolution' (5d 22h 11min) remain critically high severely exceeding non-acceptable thresholds
+149,7,4,0.6036,0,INDICATED,Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).,significant compliance concerns persist average durations for 'detection' (4d 6h 35min) 'activation' (8d
+149,7,5,0.6013,0,INDICATED,The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.,the critically high average durations in the detection activation awaiting and resolution states by identifying
+149,7,6,0.5868,0,MISSING,The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.,the critically high average durations in the detection activation awaiting and resolution states by identifying and resolving underlying bottlenecks
+149,8,1,0.6093,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,16 days 8 hours and 10 minutes far exceed the non-acceptable threshold of 14400 minutes
+149,8,2,0.6604,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,at 16 days 8 hours and 10 minutes far exceed the non-acceptable threshold of 14400 minutes
+149,8,3,0.673,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,at 16 days 8 hours and 10 minutes far exceed the non-acceptable threshold of 14400 minutes
+149,8,4,0.6235,0,INDICATED,Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).,at 16 days 8 hours and 10 minutes far exceed the non-acceptable threshold of 14400 minutes
+149,8,5,0.607,0,INDICATED,The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.,the incident management process shows an overall critical compliance cost despite
+149,8,6,0.5969,0,MISSING,The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.,the incident management process shows an overall critical compliance cost despite recent adjustments while repetitive detection
+149,9,1,0.6194,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,significant compliance issues with critical inefficiencies average state durations for `detection` (6155 min) `activation` (12655
+149,9,2,0.6216,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,significant compliance issues with critical inefficiencies average state durations for `detection` (6155 min) `activation` (12655
+149,9,3,0.6278,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,(23530 min) and `resolution` (8531 min) all substantially exceed non-acceptable thresholds while repetitive
+149,9,4,0.5528,0,MISSING,Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).,significant compliance issues with critical inefficiencies average state durations for `detection` (6155 min) `activation` (12655
+149,9,5,0.5974,0,MISSING,The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.,`mismatch activation` figures remediation is required to address the pervasive excessive state durations and investigate
+149,9,6,0.5852,0,MISSING,The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.,the reported `missing` and `mismatch activation` figures remediation is required to address the pervasive excessive state durations
+149,10,1,0.6268,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,despite the updated configuration average state durations for 'detection' (6155 min) 'activation' (12655
+149,10,2,0.626,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,despite the updated configuration average state durations for 'detection' (6155 min) 'activation' (12655
+149,10,3,0.6191,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,(23530 min) and 'resolution' (8531 min) significantly exceed their respective non-acceptable thresholds indicating
+149,10,4,0.6056,0,INDICATED,Average transition time from awaiting to resolution was 8 days 1 hour 19 minutes (11599 minutes).,"direct transition from 'detection' to 'awaiting' (n->w) observed with an average time of ""1d 0h 45min"" remains"
+149,10,5,0.5964,0,MISSING,The potentially non-compliant detection→awaiting transition is explained by merging into an existing awaiting incident.,their respective non-acceptable thresholds indicating severe process bottlenecks while repetitive 'detection'
+149,10,6,0.5911,0,MISSING,The potentially non-compliant detection→resolution transition is explained by temporary whitelisting and merging into already resolved cases.,represent significant process non-compliance against defined thresholds furthermore the direct transition from 'detection'
+150,1,1,0.731,0,INDICATED,The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules,the most frequent variants such as 'n r c' (182 incidents) 'a r c'
+150,1,2,0.7352,0,INDICATED,Variants ARC (count 135) are missing detections and are non-compliant.,'a r c' (135 incidents) and 'n
+150,1,3,0.6416,0,INDICATED,Repetitive detections are no process violation due to potentially multiple triggers,n\*rc flows are due to merge rules and repetitive
+150,1,4,0.5989,0,MISSING,Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.,flows are due to merge rules and repetitive 'n' and 'w' activities are within acceptable thresholds
+150,2,1,0.7678,0,INDICATED,The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules,the most frequent recorded variant `n r c` (182 incidents) along with patterns like
+150,2,2,0.7808,0,INDICATED,Variants ARC (count 135) are missing detections and are non-compliant.,c` variant (135 incidents) is a significant deviation
+150,2,3,0.6433,0,INDICATED,Repetitive detections are no process violation due to potentially multiple triggers,attributed to automated merging rules and repetitive detection triggers
+150,2,4,0.6137,0,INDICATED,Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.,incidents) are not process non-compliance concerns for the monitor as they are attributed to automated merging rules
+150,3,1,0.7925,0,INDICATED,The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules,"several paths now deemed compliant due to updated interpretations ""n r c"" (182 occurrences)"
+150,3,2,0.7719,0,INDICATED,Variants ARC (count 135) are missing detections and are non-compliant.,"c"" (135 occurrences) which frequently bypasses the initial detection stage and variants"
+150,3,3,0.6459,0,INDICATED,Repetitive detections are no process violation due to potentially multiple triggers,frequent recorded variants include several paths now deemed compliant due to
+150,3,4,0.6048,0,INDICATED,Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.,recorded variants include several paths now deemed compliant due to updated interpretations
+150,4,1,0.7131,0,INDICATED,The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules,the most frequent recorded variants are 'n r c' (182 incidents) 'a r c'
+150,4,2,0.7566,0,INDICATED,Variants ARC (count 135) are missing detections and are non-compliant.,technical triggers not process errors however 'a r c' (135 incidents)
+150,4,3,0.6516,0,INDICATED,Repetitive detections are no process violation due to potentially multiple triggers,repetitive 'detection' indicates multiple technical triggers not process errors
+150,4,4,0.6064,0,INDICATED,Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.,leading case without manual 'activation' or 'awaiting' and repetitive 'detection' indicates multiple technical triggers
+150,5,1,0.6954,0,INDICATED,The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules,the most frequent variants are 'n r c' (182 incidents) 'a r c' (135
+150,5,2,0.7352,0,INDICATED,Variants ARC (count 135) are missing detections and are non-compliant.,'a r c' (135 incidents) and 'n
+150,5,3,0.6796,0,INDICATED,Repetitive detections are no process violation due to potentially multiple triggers,acceptable due to temporary merge rules and multiple detection triggers
+150,5,4,0.6152,0,INDICATED,Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.,acceptable due to temporary merge rules and multiple detection triggers however the monitor should investigate variants with repetitive
+150,6,1,0.7474,0,INDICATED,The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules,(182 occurrences) and other 'n*rc' variants along with 'n' and 'w' repetitions are excused by new interpretations
+150,6,2,0.7568,0,INDICATED,Variants ARC (count 135) are missing detections and are non-compliant.,frequent *truly non-compliant* variants are 'a r c' (135
+150,6,3,0.6195,0,INDICATED,Repetitive detections are no process violation due to potentially multiple triggers,state repetitions demand immediate remediation to improve incident management compliance
+150,6,4,0.5897,0,MISSING,Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.,variants along with 'n' and 'w' repetitions are excused by new interpretations
+150,7,1,0.7278,0,INDICATED,The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules,(182 incidents) and 'a r c' (135 incidents) based on the updated environment variables `n*rc` variants
+150,7,2,0.7948,0,INDICATED,Variants ARC (count 135) are missing detections and are non-compliant.,c' (135 incidents) is non-compliant as it
+150,7,3,0.6545,0,INDICATED,Repetitive detections are no process violation due to potentially multiple triggers,compliant due to merge rules and acceptable technical triggers
+150,7,4,0.6141,0,INDICATED,Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.,incidents) and repetitive 'detection' activities are considered compliant due to merge rules
+150,8,1,0.7131,0,INDICATED,The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules,the most frequent recorded variants are 'n r c' (182 incidents) 'a r c'
+150,8,2,0.7484,0,INDICATED,Variants ARC (count 135) are missing detections and are non-compliant.,why 135 incidents initiate directly at 'activation' ('a')
+150,8,3,0.6611,0,INDICATED,Repetitive detections are no process violation due to potentially multiple triggers,compliant due to automatic merge rules for incidents with new triggers
+150,8,4,0.6114,0,INDICATED,Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.,considered compliant due to automatic merge rules for incidents with new triggers
+150,9,1,0.719,0,INDICATED,The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules,the most frequent recorded variants 'n r c' (182 incidents) 'n n r c'
+150,9,2,0.7717,0,INDICATED,Variants ARC (count 135) are missing detections and are non-compliant.,c' (135 incidents) still indicates a compliance concern by bypassing
+150,9,3,0.624,0,INDICATED,Repetitive detections are no process violation due to potentially multiple triggers,formal detection requiring investigation to understand the root
+150,9,4,0.6014,0,INDICATED,Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.,with 'detection' additionally repetitive 'awaiting' (w) deviations are dismissed as non-process harming
+150,10,1,0.7547,0,INDICATED,The most common variant (NRC) (Count 182) is now considered process compliant due to automatic merge rules,the most frequent recorded variant is 'n r c' (182 occurrences) indicating incidents transitioning directly from 'detection'
+150,10,2,0.7668,0,INDICATED,Variants ARC (count 135) are missing detections and are non-compliant.,c' (135 occurrences) where incidents start at 'activation' without a recorded
+150,10,3,0.6558,0,INDICATED,Repetitive detections are no process violation due to potentially multiple triggers,is not considered a process error due to automated merge rules
+150,10,4,0.6374,0,INDICATED,Variants with repetitive awaiting activities are not process violations due to customer or third-party delays.,variant is not considered a process error due to automated merge rules
+151,1,1,0.6281,0,INDICATED,No process activities showed concering average compliance cost exceeding the individual thresholds.,respective non-acceptable thresholds therefore while the cost metric shows compliance
+151,1,2,0.5851,0,MISSING,"There were 319 missing detections, that violate threshold",implicitly addressing missing activation (544) deviations
+151,1,3,0.7234,0,INDICATED,"There were 1777 repetitive detections, that do not violate the threshold",effectively excusing high repetition counts in detection (1777)
+151,1,4,0.6005,0,INDICATED,There were 0 detection mismatches.,the cost metric shows compliance
+151,1,5,0.7457,0,INDICATED,There were 544 missing activations caused by merge rules and are not process violations.,and implicitly addressing missing activation (544) deviations due to n*rc paths
+151,1,6,0.7638,0,INDICATED,"There were 1990 repetitive activations, which violate the threshold",remaining high deviations in activation (1990 repetition
+151,1,7,0.7311,0,INDICATED,"There were 115 activation mismatches, which violate the theshold",remaining high deviations in activation (1990 repetition 115 mismatch)
+151,1,8,0.7267,0,INDICATED,"There were 1653 repetitive awaiting events, that do not violate the threshold",updated interpretations effectively excusing high repetition counts in detection (1777) and awaiting (1653)
+151,1,9,0.7208,0,INDICATED,There were 4 awaiting mismatches.,times in detection (4d
+151,1,10,0.7142,0,INDICATED,"There were 119 repetitive awaiting events, that violate the threshold",high deviations in activation (1990 repetition 115 mismatch) and resolution (119
+151,1,11,0.7104,0,INDICATED,45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.,activity durations and further investigating remaining high deviations in activation (1990 repetition 115 mismatch) and resolution (119 repetition 45
+151,2,1,0.6231,0,INDICATED,No process activities showed concering average compliance cost exceeding the individual thresholds.,on the 'cost' compliance metric and the provided tunings all process activities
+151,2,2,0.5907,0,MISSING,"There were 319 missing detections, that violate threshold",the updated environmental parameters and tunings
+151,2,3,0.5892,0,MISSING,"There were 1777 repetitive detections, that do not violate the threshold",variants do not impact compliance as per the updated environmental parameters
+151,2,4,0.5969,0,MISSING,There were 0 detection mismatches.,updated environmental parameters and tunings
+151,2,5,0.5944,0,MISSING,There were 544 missing activations caused by merge rules and are not process violations.,as 'missing' states due to n*rc variants do not impact compliance as
+151,2,6,0.6276,0,INDICATED,"There were 1990 repetitive activations, which violate the threshold",the 'cost' compliance metric and the provided tunings
+151,2,7,0.5827,0,MISSING,"There were 115 activation mismatches, which violate the theshold",the 'cost' compliance metric and the provided tunings
+151,2,8,0.5732,0,MISSING,"There were 1653 repetitive awaiting events, that do not violate the threshold",variants do not impact compliance as per the updated environmental parameters and tunings
+151,2,9,0.5738,0,MISSING,There were 4 awaiting mismatches.,updated environmental parameters and tunings
+151,2,10,0.5882,0,MISSING,"There were 119 repetitive awaiting events, that violate the threshold",as per the updated environmental parameters and tunings
+151,2,11,0.5774,0,MISSING,45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.,not impact compliance as per the updated environmental parameters and tunings hence no remediation is required
+151,3,1,0.6279,0,INDICATED,No process activities showed concering average compliance cost exceeding the individual thresholds.,for each activity indicating high process compliance after considering specified deviation exceptions
+151,3,2,0.5831,0,MISSING,"There were 319 missing detections, that violate threshold",indicating high process compliance after considering specified deviation
+151,3,3,0.5784,0,MISSING,"There were 1777 repetitive detections, that do not violate the threshold",within the 'low' severity range and below the acceptable threshold
+151,3,4,0.5981,0,MISSING,There were 0 detection mismatches.,the `cost` compliance metric
+151,3,5,0.5926,0,MISSING,There were 544 missing activations caused by merge rules and are not process violations.,indicating high process compliance after considering specified deviation exceptions however the average time spent in detection
+151,3,6,0.6143,0,INDICATED,"There were 1990 repetitive activations, which violate the threshold",range and below the acceptable threshold
+151,3,7,0.5777,0,MISSING,"There were 115 activation mismatches, which violate the theshold",non-acceptable time thresholds remediation is required
+151,3,8,0.5668,0,MISSING,"There were 1653 repetitive awaiting events, that do not violate the threshold",based on the `cost` compliance metric all activities (detection 0.02
+151,3,9,0.711,0,INDICATED,There were 4 awaiting mismatches.,spent in detection (4d
+151,3,10,0.5838,0,MISSING,"There were 119 repetitive awaiting events, that violate the threshold",indicating high process compliance after considering specified deviation
+151,3,11,0.5753,0,MISSING,45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.,indicating high process compliance after considering specified deviation exceptions however the average time spent
+151,4,1,0.6193,0,INDICATED,No process activities showed concering average compliance cost exceeding the individual thresholds.,using the non-compliance cost metric and adjusted interpretations shows
+151,4,2,0.7414,0,INDICATED,"There were 319 missing detections, that violate threshold",excessive missing events (319) and an average
+151,4,3,0.5811,0,MISSING,"There were 1777 repetitive detections, that do not violate the threshold",has excessive missing events (319) and an average
+151,4,4,0.6009,0,INDICATED,There were 0 detection mismatches.,shorten the 4-day average
+151,4,5,0.5938,0,MISSING,There were 544 missing activations caused by merge rules and are not process violations.,the non-compliance cost metric and adjusted interpretations shows that 'activation' remains
+151,4,6,0.7616,0,INDICATED,"There were 1990 repetitive activations, which violate the threshold",with critical deviations in repetition (1990) and mismatch
+151,4,7,0.7258,0,INDICATED,"There were 115 activation mismatches, which violate the theshold",mismatch (115) and an excessive average time
+151,4,8,0.581,0,MISSING,"There were 1653 repetitive awaiting events, that do not violate the threshold",a moderate cost of 0.1555 coupled with critical deviations in repetition
+151,4,9,0.7418,0,INDICATED,There were 4 awaiting mismatches.,the 4-day average time
+151,4,10,0.711,0,INDICATED,"There were 119 repetitive awaiting events, that violate the threshold",reports critical repetition (119) and mismatch (45) deviations
+151,4,11,0.7004,0,INDICATED,45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.,and 'resolution' reports critical repetition (119) and mismatch (45) deviations along with an average time
+151,6,1,0.618,0,INDICATED,No process activities showed concering average compliance cost exceeding the individual thresholds.,a responder's perspective suggesting the initial reported costs might
+151,6,2,0.5898,0,MISSING,"There were 319 missing detections, that violate threshold",the current metrics and adjusted rules
+151,6,3,0.7197,0,INDICATED,"There were 1777 repetitive detections, that do not violate the threshold",might not fully reflect the intended assessment specifically repetitive detection deviations (1777
+151,6,4,0.6029,0,INDICATED,There were 0 detection mismatches.,this indicates overall compliance
+151,6,5,0.5945,0,MISSING,There were 544 missing activations caused by merge rules and are not process violations.,and repetitive awaiting activities (1653 in 'w') are deemed not process errors
+151,6,6,0.6325,0,INDICATED,"There were 1990 repetitive activations, which violate the threshold",on the current metrics and adjusted rules
+151,6,7,0.5883,0,MISSING,"There were 115 activation mismatches, which violate the theshold",the provided rule changes for specific deviation types imply they
+151,6,8,0.7232,0,INDICATED,"There were 1653 repetitive awaiting events, that do not violate the threshold",and repetitive awaiting activities (1653 in 'w') are deemed
+151,6,9,0.5853,0,MISSING,There were 4 awaiting mismatches.,current metrics and adjusted rules
+151,6,10,0.5896,0,MISSING,"There were 119 repetitive awaiting events, that violate the threshold",these exclusions are correctly applied to the provided average costs
+151,6,11,0.5854,0,MISSING,45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.,provided rule changes for specific deviation types imply they should not contribute to the compliance cost
+151,7,1,0.6374,0,INDICATED,No process activities showed concering average compliance cost exceeding the individual thresholds.,all process activities currently demonstrate 'low' average non-compliance cost
+151,7,2,0.7383,0,INDICATED,"There were 319 missing detections, that violate threshold",non-compliance 'detection' shows high missing deviations (319
+151,7,3,0.5822,0,MISSING,"There were 1777 repetitive detections, that do not violate the threshold",to clarify the actual non-compliance of missing activities
+151,7,4,0.6076,0,INDICATED,There were 0 detection mismatches.,to reduce repetition and mismatch deviations
+151,7,5,0.7256,0,INDICATED,There were 544 missing activations caused by merge rules and are not process violations.,its 544 missing deviations (threshold <=200) require further data to differentiate
+151,7,6,0.7801,0,INDICATED,"There were 1990 repetitive activations, which violate the threshold",a critical area with 1990 repetition deviations
+151,7,7,0.7277,0,INDICATED,"There were 115 activation mismatches, which violate the theshold",115 mismatch deviations (threshold <=50) its 544 missing
+151,7,8,0.5758,0,MISSING,"There were 1653 repetitive awaiting events, that do not violate the threshold",non-compliant with 119 repetition (threshold <=50) and 45 mismatch
+151,7,9,0.6004,0,INDICATED,There were 4 awaiting mismatches.,its 544 missing deviations
+151,7,10,0.7259,0,INDICATED,"There were 119 repetitive awaiting events, that violate the threshold",non-compliant with 119 repetition (threshold <=50) and 45 mismatch
+151,7,11,0.7222,0,INDICATED,45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.,45 mismatch (threshold <=20) deviations **recommendation:** focus remediation efforts on addressing the high volume
+151,8,1,0.6168,0,INDICATED,No process activities showed concering average compliance cost exceeding the individual thresholds.,on the 'cost' compliance metric and adjusted deviation interpretations
+151,8,2,0.5878,0,MISSING,"There were 319 missing detections, that violate threshold",meeting the acceptable compliance threshold
+151,8,3,0.5779,0,MISSING,"There were 1777 repetitive detections, that do not violate the threshold",immediate remediation is required to investigate the root
+151,8,4,0.5969,0,MISSING,There were 0 detection mismatches.,the acceptable compliance threshold
+151,8,5,0.5927,0,MISSING,There were 544 missing activations caused by merge rules and are not process violations.,a critical non-compliance issue persists in average activity durations detection (6155
+151,8,6,0.6194,0,INDICATED,"There were 1990 repetitive activations, which violate the threshold",on the 'cost' compliance metric and adjusted deviation
+151,8,7,0.5851,0,MISSING,"There were 115 activation mismatches, which violate the theshold",non-compliance issue persists in average activity durations detection (6155
+151,8,8,0.5857,0,MISSING,"There were 1653 repetitive awaiting events, that do not violate the threshold",non-compliance issue persists in average activity durations detection (6155 min)
+151,8,9,0.5781,0,MISSING,There were 4 awaiting mismatches.,durations detection (6155 min)
+151,8,10,0.583,0,MISSING,"There were 119 repetitive awaiting events, that violate the threshold",non-compliance issue persists in average activity durations
+151,8,11,0.5686,0,MISSING,45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.,meeting the acceptable compliance threshold of `<= 0.05` however a critical non-compliance issue persists in average activity
+151,9,1,0.628,0,INDICATED,No process activities showed concering average compliance cost exceeding the individual thresholds.,primary impeding activity after applying the non-compliance cost model and updated interpretations
+151,9,2,0.5867,0,MISSING,"There were 319 missing detections, that violate threshold",and 'mismatch' (115 instances) deviations
+151,9,3,0.7035,0,INDICATED,"There were 1777 repetitive detections, that do not violate the threshold",exceeds the acceptable threshold of <= 0.05 repetitive deviations in 'detection' (1777)
+151,9,4,0.5945,0,MISSING,There were 0 detection mismatches.,data on incidents processed
+151,9,5,0.5971,0,MISSING,There were 544 missing activations caused by merge rules and are not process violations.,the non-compliance cost model and updated interpretations 'activation' has an average
+151,9,6,0.7519,0,INDICATED,"There were 1990 repetitive activations, which violate the threshold",of the high 'repetition' (1990 instances)
+151,9,7,0.7329,0,INDICATED,"There were 115 activation mismatches, which violate the theshold",(115 instances) deviations in 'activation' to implement corrective
+151,9,8,0.7063,0,INDICATED,"There were 1653 repetitive awaiting events, that do not violate the threshold",(1653) are now deemed acceptable due to updated thresholds
+151,9,9,0.585,0,MISSING,There were 4 awaiting mismatches.,data on incidents processed
+151,9,10,0.5932,0,MISSING,"There were 119 repetitive awaiting events, that violate the threshold",the primary impeding activity after applying the non-compliance
+151,9,11,0.5801,0,MISSING,45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.,assessments gather specific data on incidents processed via the n*rc variant to accurately exclude non-compliant
+151,10,1,0.632,0,INDICATED,No process activities showed concering average compliance cost exceeding the individual thresholds.,to the defined cost metric incorporating the recently tuned thresholds for repetitive detection
+151,10,2,0.7257,0,INDICATED,"There were 319 missing detections, that violate threshold",missing deviations (319 vs <=20) are notably
+151,10,3,0.7269,0,INDICATED,"There were 1777 repetitive detections, that do not violate the threshold",the recently tuned thresholds for repetitive detection deviations (n 1777
+151,10,4,0.6033,0,INDICATED,There were 0 detection mismatches.,to reduce all deviation types
+151,10,5,0.7218,0,INDICATED,There were 544 missing activations caused by merge rules and are not process violations.,significant underlying operational inefficiencies persist:\n* **activation (a):** despite low average cost missing (544
+151,10,6,0.7447,0,INDICATED,"There were 1990 repetitive activations, which violate the threshold",repetition (1990 vs <=500) and mismatch
+151,10,7,0.7191,0,INDICATED,"There were 115 activation mismatches, which violate the theshold",and mismatch (115 vs <=50) deviations remain excessively
+151,10,8,0.7224,0,INDICATED,"There were 1653 repetitive awaiting events, that do not violate the threshold",detection deviations (n 1777 vs `<=5000`) and repetitive awaiting activities (w 1653
+151,10,9,0.7209,0,INDICATED,There were 4 awaiting mismatches.,the average time (4d
+151,10,10,0.7104,0,INDICATED,"There were 119 repetitive awaiting events, that violate the threshold",repetition (119 vs <=50) and mismatch (45
+151,10,11,0.7003,0,INDICATED,45 resolution mismatches violate the threshold and may represent false negatives later reclassified as true positives.,(45 vs <=20) deviations are significantly high with an average time (5d 22h 11min) also exceeding the non-acceptable threshold
+152,1,1,0.7391,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,the average durations for detection (4d 6h 35min / 6155 min) activation (8d
+152,1,2,0.7228,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,min) activation (8d 18h 55min / 12655 min) awaiting (16d 8h 10min /
+152,1,3,0.7295,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,min) awaiting (16d 8h 10min / 23530 min) and resolution (5d 22h 11min
+152,1,4,0.7597,0,INDICATED,Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.,and resolution (5d 22h 11min / 8531 min) critically exceed their respective non-acceptable
+152,1,5,0.6086,0,INDICATED,No unusual temporal spikes were observed.,indicating severe process efficiency impediments
+152,1,6,0.5958,0,MISSING,Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.,deviation thresholds indicating internal process inefficiencies for awaiting despite repetitions (1653) being outside
+152,2,1,0.6284,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,their non-acceptable time thresholds detection (6155 min vs >=2880 min) activation (12655 min
+152,2,2,0.6293,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,exceed their non-acceptable time thresholds detection (6155 min vs >=2880 min) activation (12655 min
+152,2,3,0.6283,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,most severely awaiting (23530 min vs >=14400 min) while certain repetitive deviations in
+152,2,4,0.6166,0,INDICATED,Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.,min) resolution (8531 min vs >=4320 min) and most severely awaiting (23530 min
+152,2,5,0.6069,0,INDICATED,No unusual temporal spikes were observed.,these active states still represent critical bottlenecks
+152,2,6,0.5907,0,MISSING,Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.,average durations in these active states still represent critical bottlenecks
+152,3,1,0.6276,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,'detection' (6155 minutes) all substantially exceeding their non-acceptable thresholds (14400 7200 4320 and 2880 minutes respectively)
+152,3,2,0.6282,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,average activity durations reveals significant efficiency impediments with 'awaiting' (23530 minutes) 'activation' (12655
+152,3,3,0.6269,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,average activity durations reveals significant efficiency impediments with 'awaiting' (23530 minutes) 'activation' (12655
+152,3,4,0.6288,0,INDICATED,Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.,(8531 minutes) and 'detection' (6155 minutes) all substantially exceeding their non-acceptable thresholds (14400
+152,3,5,0.6098,0,INDICATED,No unusual temporal spikes were observed.,such as improving external stakeholder management
+152,3,6,0.5964,0,MISSING,Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.,average activity durations reveals significant efficiency impediments with 'awaiting' (23530 minutes)
+152,4,1,0.6439,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,average activity durations for detection (n 4d 6h 35min exceeding nonacceptabletime of 2880min)
+152,4,2,0.6342,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,average activity durations for detection (n 4d 6h 35min exceeding nonacceptabletime of 2880min) activation (a 8d 18h 55min
+152,4,3,0.6363,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,awaiting (w 16d 8h 10min exceeding nonacceptabletime of 14400min) and resolution (r 5d
+152,4,4,0.6404,0,INDICATED,Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.,resolution (r 5d 22h 11min exceeding nonacceptabletime of 4320min) all represent critical process
+152,4,5,0.6166,0,INDICATED,No unusual temporal spikes were observed.,all represent critical process efficiency impediments
+152,4,6,0.5828,0,MISSING,Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.,(r) implement internal process streamlining resource optimization and training to reduce average activity
+152,6,1,0.6079,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,35min) activation (8d 18h 55min) awaiting (16d 8h 10min) and resolution (5d 22h
+152,6,2,0.6279,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,8h 10min) and resolution (5d 22h 11min) remain critical efficiency impediments as they
+152,6,3,0.6354,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,10min) and resolution (5d 22h 11min) remain critical efficiency impediments as they significantly exceed
+152,6,4,0.6347,0,INDICATED,Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.,resolution (5d 22h 11min) remain critical efficiency impediments as they significantly exceed their
+152,6,5,0.6107,0,INDICATED,No unusual temporal spikes were observed.,to streamline core incident handling activities
+152,6,6,0.5926,0,MISSING,Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.,thresholds for detection investigate factors beyond repetitive triggers that prolong the 4-day
+152,8,1,0.6259,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,average activity durations indicate significant efficiency impediments across multiple stages detection (6155 min vs >=2880 min non-acceptable) activation (12655
+152,8,2,0.6272,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,average activity durations indicate significant efficiency impediments across multiple stages detection (6155 min vs >=2880 min non-acceptable) activation (12655
+152,8,3,0.6108,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,min non-acceptable) awaiting (23530 min vs >=14400 min non-acceptable) and resolution (8531 min
+152,8,4,0.6247,0,INDICATED,Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.,(8531 min vs >=4320 min non-acceptable) while the cost metric for all activities
+152,8,5,0.6062,0,INDICATED,No unusual temporal spikes were observed.,not adequately reflect the severe time inefficiencies
+152,8,6,0.5913,0,MISSING,Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.,average activity durations indicate significant efficiency impediments across multiple stages detection (6155 min
+152,10,1,0.6294,0,INDICATED,Average detection duration was 4 days 6 hours 35 minutes (6155 minutes). Above the acceptable threshold.,remain a critical impediment to process efficiency detection (6155 min) activation (12655 min) awaiting
+152,10,2,0.631,0,INDICATED,Average activation duration was 8 days 18 hours 55 minutes (12655 minutes). Above the acceptable threshold.,average activity durations remain a critical impediment to process efficiency detection (6155 min) activation (12655 min)
+152,10,3,0.63,0,INDICATED,Average awaiting duration was 16 days 8 hours 10 minutes (23530 minutes). Above the acceptable threshold.,critical impediment to process efficiency detection (6155 min) activation (12655 min) awaiting (23530
+152,10,4,0.6304,0,INDICATED,Average resolution duration was 5 days 22 hours 11 minutes (8531 minutes). Above the acceptable threshold.,resolution (8531 min) all significantly exceed their non-acceptable time thresholds of 2880 min
+152,10,5,0.6148,0,INDICATED,No unusual temporal spikes were observed.,a critical impediment to process efficiency
+152,10,6,0.5987,0,MISSING,Weekend periods with no work activity (approximately 2.5 days) partially explain increased durations.,"durations in these stages (especially ""awaiting"" at over 16 days) severely impact"
+153,1,1,0.7647,0,INDICATED,Critical process severity incidents are 7 in total,7 listed incidents are critically non-compliant
+153,1,2,0.8307,0,INDICATED,INC0033952 has the highest assigned compliance cost with 0.81,inc0033952 showing the highest cost at 0.81 a technical
+153,1,3,0.5527,0,MISSING,"INC0025696, INC0026744 and INC0032450 show cost of 0.41",with inc0033952 showing the highest
+153,1,4,0.6465,0,INDICATED,This critical process severity requires deeper individual incident analysis.,proper deep dive and targeted remediation provide detailed breakdowns
+153,2,1,0.75,0,INDICATED,Critical process severity incidents are 7 in total,top 7 incidents led by
+153,2,2,0.7974,0,INDICATED,INC0033952 has the highest assigned compliance cost with 0.81,inc0033952 with a non-compliance cost of 0.81 are
+153,2,3,0.5577,0,MISSING,"INC0025696, INC0026744 and INC0032450 show cost of 0.41",patterns like `symptom 491` `location 204` and `category 46`
+153,2,4,0.6451,0,INDICATED,This critical process severity requires deeper individual incident analysis.,the cost metric technical analysis consistently reveals
+153,3,1,0.6137,0,INDICATED,Critical process severity incidents are 7 in total,deep dive and targeted remediation granular
+153,3,2,0.6269,0,INDICATED,INC0033952 has the highest assigned compliance cost with 0.81,0.81 all fall within the 'critical' compliance
+153,3,3,0.5539,0,MISSING,"INC0025696, INC0026744 and INC0032450 show cost of 0.41",0.31 to 0.81 all fall
+153,3,4,0.6369,0,INDICATED,This critical process severity requires deeper individual incident analysis.,and targeted remediation granular data on the specific deviations
+153,4,1,0.6095,0,INDICATED,Critical process severity incidents are 7 in total,priority 1) incident handling to resolve true process drifts
+153,4,2,0.7768,0,INDICATED,INC0033952 has the highest assigned compliance cost with 0.81,inc0033952 at 0.81) posing severe risks from process deviations as
+153,4,3,0.5628,0,MISSING,"INC0025696, INC0026744 and INC0032450 show cost of 0.41",by cost (e.g inc0033952 at 0.81) posing severe
+153,4,4,0.6307,0,INDICATED,This critical process severity requires deeper individual incident analysis.,cost are outside security operator control) from process error
+153,5,1,0.6146,0,INDICATED,Critical process severity incidents are 7 in total,the 109 incidents with missing symptom data as
+153,5,2,0.7853,0,INDICATED,INC0033952 has the highest assigned compliance cost with 0.81,most critical incidents such as inc0033952 (cost 0.81)
+153,5,3,0.6546,0,INDICATED,"INC0025696, INC0026744 and INC0032450 show cost of 0.41",as inc0033952 (cost 0.81) and inc0025696
+153,5,4,0.6325,0,INDICATED,This critical process severity requires deeper individual incident analysis.,indicating significant process deviations these risks could
+153,6,1,0.6137,0,INDICATED,Critical process severity incidents are 7 in total,seven incidents are critically non-compliant
+153,6,2,0.6364,0,INDICATED,INC0033952 has the highest assigned compliance cost with 0.81,to 0.81 falling within the new critical
+153,6,3,0.5511,0,MISSING,"INC0025696, INC0026744 and INC0032450 show cost of 0.41",from 0.31 to 0.81 falling
+153,6,4,0.6445,0,INDICATED,This critical process severity requires deeper individual incident analysis.,n*rc variants) to accurately identify actionable process errors
+153,7,1,0.6255,0,INDICATED,Critical process severity incidents are 7 in total,priority location category) to these individual critical incidents would
+153,7,2,0.8295,0,INDICATED,INC0033952 has the highest assigned compliance cost with 0.81,inc0033952 having the highest non-compliance cost at 0.81
+153,7,3,0.8337,0,INDICATED,"INC0025696, INC0026744 and INC0032450 show cost of 0.41",inc0025696 inc0026744 and inc0032450 at 0.41 based
+153,7,4,0.6437,0,INDICATED,This critical process severity requires deeper individual incident analysis.,the updated compliance interpretations regarding repetitive detection/awaiting activities
+153,8,1,0.7452,0,INDICATED,Critical process severity incidents are 7 in total,top 7 incidents with costs
+153,8,2,0.645,0,INDICATED,INC0033952 has the highest assigned compliance cost with 0.81,0.81 are critically non-compliant however this
+153,8,3,0.5517,0,MISSING,"INC0025696, INC0026744 and INC0032450 show cost of 0.41",0.31 to 0.81 are critically
+153,8,4,0.6448,0,INDICATED,This critical process severity requires deeper individual incident analysis.,or mismatches remediation requires refining the compliance model
+153,9,1,0.6134,0,INDICATED,Critical process severity incidents are 7 in total,updated cost metric falling into the critical severity
+153,9,2,0.7967,0,INDICATED,INC0033952 has the highest assigned compliance cost with 0.81,inc0033952 with a cost of 0.81 demonstrates severe process deviations
+153,9,3,0.5571,0,MISSING,"INC0025696, INC0026744 and INC0032450 show cost of 0.41",0.45 c missing 0.3 r
+153,9,4,0.6395,0,INDICATED,This critical process severity requires deeper individual incident analysis.,a systemic process drift for these specific types
+153,10,1,0.75,0,INDICATED,Critical process severity incidents are 7 in total,7 incidents with critically high non-compliance
+153,10,2,0.6472,0,INDICATED,INC0033952 has the highest assigned compliance cost with 0.81,0.81) indicating significant process risks however applying the
+153,10,3,0.5501,0,MISSING,"INC0025696, INC0026744 and INC0032450 show cost of 0.41",costs (0.31 to 0.81) indicating
+153,10,4,0.6403,0,INDICATED,This critical process severity requires deeper individual incident analysis.,without granular cost data per deviation
+154,1,1,0.607,0,INDICATED,"Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.","goal however 104 incidents lacking symptom data (""none"") severely hinder root"
+154,1,2,0.7428,0,INDICATED,Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.,issues 3 **prioritize critical incidents:** perform a targeted technical deep dive
+154,1,3,0.6456,0,INDICATED,"High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.",(79 times) and categories 46 (102 times) 42 (67 times) 26 (61 times) satisfying the control's reporting goal however 104 incidents lacking symptom data
+154,1,4,0.6376,0,INDICATED,"Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.",2 **focus technical investigations:** conduct in-depth root cause analysis on incidents with symptom 491 and those affecting locations 204 161 143 and categories 46 42 26
+154,2,1,0.6247,0,INDICATED,"Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.","control ""report technical analysis and most affected categories"" is partially"
+154,2,2,0.585,0,MISSING,Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.,"control ""report technical analysis and most affected categories"" is partially met"
+154,2,3,0.6412,0,INDICATED,"High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.",161 (82) and categories 46 (62) and 26 (59) also appear frequently **required remediation:** to achieve full
+154,2,4,0.6276,0,INDICATED,"Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.",an analyst an aggregation of this data reveals that symptom 491 (198 occurrences) location 204 (172 occurrences) and category
+154,3,1,0.6208,0,INDICATED,"Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.","for the ""report technical analysis and most affected categories"" control"
+154,3,2,0.6003,0,INDICATED,Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.,with 65 incidents lacking recorded symptoms which severely hinders comprehensive technical analysis and root
+154,3,3,0.6459,0,INDICATED,"High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.","most affected categories"" control technical statistics indicate symptom 491 (172 incidents) locations 204 (111 incidents) and 161 (104 incidents) and categories 46"
+154,3,4,0.635,0,INDICATED,"Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.","the ""report technical analysis and most affected categories"" control technical statistics indicate symptom 491 (172 incidents) locations 204 (111 incidents) and 161 (104"
+154,4,1,0.6226,0,INDICATED,"Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.","the ""report technical analysis and most affected categories"" control's objective no remediation is"
+154,4,2,0.5966,0,MISSING,Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.,"fulfilling the ""report technical analysis and most affected categories"" control's objective no remediation is required"
+154,4,3,0.629,0,INDICATED,"High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.",frequent symptom is 'none' (70 occurrences) followed by symptom 491 (67 occurrences) category 46 (104 occurrences) and location 204 (171
+154,4,4,0.6214,0,INDICATED,"Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.",category 46 (104 occurrences) and location 204 (171 occurrences) are the most frequently affected this statistical breakdown enables the deduction of frequently targeted it assets
+154,5,1,0.6227,0,INDICATED,"Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.",control 'report technical analysis and most affected categories' is adequately
+154,5,2,0.5998,0,MISSING,Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.,high-cost incidents this analysis must distinguish true process errors from the newly defined acceptable
+154,5,3,0.6336,0,INDICATED,"High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.",491) locations (e.g 204) and categories (e.g 42 46 23 53 26) which allows for deduction of frequently targeted it assets **required remediation:**
+154,5,4,0.6191,0,INDICATED,"Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.",adequately met as the provided technical analysis data clearly identifies prevalent symptoms (e.g 491) locations (e.g 204) and categories (e.g 42
+154,6,1,0.6088,0,INDICATED,"Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.",for technical deduction and cannot be derived from the updated process compliance metrics or deviation
+154,6,2,0.6046,0,INDICATED,Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.,the 70 incidents with unrecorded symptoms (`none`) to ensure comprehensive data
+154,6,3,0.6316,0,INDICATED,"High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.",reporting of technical statistics as required by the control analysis shows that symptom `491` (202 occurrences) category `46` (82 occurrences) and location `204` (154
+154,6,4,0.6273,0,INDICATED,"Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.",reporting of technical statistics as required by the control analysis shows that symptom `491` (202 occurrences) category `46` (82 occurrences) and location
+154,7,1,0.6099,0,INDICATED,"Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.",for process compliance due to adjusted thresholds and merge rules
+154,7,2,0.5951,0,MISSING,Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.,also showing significant non-compliance from a technical analysis perspective symptom 491 (172 occurrences) category
+154,7,3,0.6387,0,INDICATED,"High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.",non-compliance from a technical analysis perspective symptom 491 (172 occurrences) category 46 (55 occurrences) and location 204 (110
+154,7,4,0.6308,0,INDICATED,"Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.",also showing significant non-compliance from a technical analysis perspective symptom 491 (172 occurrences) category 46 (55 occurrences) and location 204 (110
+154,8,1,0.6062,0,INDICATED,"Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.",of incidents with 'none' for symptom as this data quality issue
+154,8,2,0.5959,0,MISSING,Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.,the 'cost' metric indicates high non-compliance with all identified incidents falling into the
+154,8,3,0.6448,0,INDICATED,"High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.",symptom 491 (104 occurrences) and 'none' (75 occurrences) as most frequent with location 204 (119 incidents) and category 46 (71
+154,8,4,0.6399,0,INDICATED,"Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.",0.81) technical analysis reveals symptom 491 (104 occurrences) and 'none' (75 occurrences) as most frequent with location 204 (119 incidents) and category
+154,9,1,0.6053,0,INDICATED,"Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.",attributes while recent adjustments to compliance metrics and interpretations for repetitive process deviations
+154,9,2,0.5954,0,MISSING,Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.,most frequently observed technical attributes while recent adjustments to compliance metrics and interpretations
+154,9,3,0.6326,0,INDICATED,"High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.",with categories '53' and '26') and location '204' (122 occurrences) are the most frequently observed technical attributes while recent
+154,9,4,0.6307,0,INDICATED,"Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.",(100 occurrences tied with categories '53' and '26') and location '204' (122 occurrences) are the most frequently observed technical attributes while recent adjustments to compliance metrics
+154,10,1,0.615,0,INDICATED,"Low-priority (4) incidents are informational and spam about many symptoms, locations, and categories.",'491' and prioritize investigations for it assets and infrastructure in
+154,10,2,0.5932,0,MISSING,Medium-priority (3) incidents show widely distributed symptoms and affected categories with no clear pattern.,"for data quality by enforcing mandatory symptom reporting to eliminate ""none"" entries"
+154,10,3,0.6454,0,INDICATED,"High-priority (2) incidents show repetitive symptom (491), location (161), and categories (46, 42, 53, 57, 61) and require compliance investigation.",cause analysis for symptom '491' and prioritize investigations for it assets and infrastructure in locations '204' '143' '161' and categories '46'
+154,10,4,0.6373,0,INDICATED,"Critical-priority (1) incidents show repetitive patterns in symptom (491) and locations (204, 143 and categories (46, 42) and require detailed compliance assessment.",cause analysis for symptom '491' and prioritize investigations for it assets and infrastructure in locations '204' '143' '161' and categories

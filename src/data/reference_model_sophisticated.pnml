@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml>
+  <net type="http://www.informatik.hu-berlin.de/top/pntd/ptNetb" id="noID">
+    
+    <!-- Detection -->
+    <place id="p1">
+      <name>
+        <text>detection</text>
+      </name>
+      <graphics>
+        <position x="50" y="100"/>
+      </graphics>
+    </place>
+    
+    <!-- Activation -->
+    <place id="p2">
+      <name>
+        <text>activation</text>
+      </name>
+      <graphics>
+        <position x="150" y="100"/>
+      </graphics>
+    </place>
+
+    <place id="p8">
+      <name>
+        <text>awaiting</text>
+      </name>
+      <graphics>
+        <position x="650" y="100"/>
+      </graphics>
+    </place>
+    
+    <!-- Assessment -->
+    <place id="p3">
+      <name>
+        <text>assessment</text>
+      </name>
+      <graphics>
+        <position x="250" y="100"/>
+      </graphics>
+    </place>
+    
+    <!-- Mitigation Actions -->
+    <place id="p4">
+      <name>
+        <text>mitigation actions</text>
+      </name>
+      <graphics>
+        <position x="350" y="100"/>
+      </graphics>
+    </place>
+
+    <place id="p9">
+      <name>
+        <text>double check</text>
+      </name>
+      <graphics>
+        <position x="650" y="100"/>
+      </graphics>
+    </place>
+    
+    <!-- Resolution -->
+    <place id="p5">
+      <name>
+        <text>resolution</text>
+      </name>
+      <graphics>
+        <position x="450" y="100"/>
+      </graphics>
+    </place>
+
+    <!-- Notification -->
+    <place id="p6">
+      <name>
+        <text>notification</text>
+      </name>
+      <graphics>
+        <position x="550" y="100"/>
+      </graphics>
+    </place>
+    
+    <!-- Closure -->
+    <place id="p7">
+      <name>
+        <text>closure</text>
+      </name>
+      <graphics>
+        <position x="650" y="100"/>
+      </graphics>
+    </place>
+
+    
+    
+    
+    
+    <!-- Transitions -->
+
+    <arc id="a1" source="p1" target="p2"/>
+    <arc id="a2" source="p2" target="p3"/>
+    <arc id="a9" source="p2" target="p8"/>
+    <arc id="a10" source="p8" target="p9"/>
+    <arc id="a11" source="p9" target="p5"/>
+    <arc id="a3" source="p3" target="p4"/>
+    <arc id="a4" source="p4" target="p5"/>
+    <arc id="a5" source="p5" target="p6"/>
+    <arc id="a6" source="p6" target="p7"/>
+
+    <!-- Additional transitions -->
+
+    <arc id="a8" source="p4" target="p5"/> <!-- Direct resolution -->
+    <arc id="a12" source="p4" target="p9"/> <!-- Direct resolution -->
+  </net>
+</pnml>

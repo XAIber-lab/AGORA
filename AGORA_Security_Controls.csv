@@ -1,0 +1,8 @@
+Security Control,Description,Service Responsible
+"Summarization of new and resolved incidents, SLA & compliance indicators, optional severities",Presentation of data related to incidents development and statistical analysis as entry points for further analysis. Indicators if contractual obligations were met,Manager
+Review of important indicators describing the IM reference model,Presentation of data related to the Reference Model namely avg duration and transition times. Occasionally explanations of specific activity transitions,Monitor
+Review of common variants in the given review window,"Highlight the most frequent recorded variants. Explain their narrative in the context of the reference model. Optional, highlight uncommon and rarely seen variants and provide explanation or initiate discussion",Monitor
+Review of compliance metric averages per activity,"Identify the process compliance impeding activities with a given compliance metric and discuss possible means for future implementation against non-compliance. Optional, analysis of temporal development of compliance ",Responder
+Review of average activity durations,Identify the process efficiency impeding activities through the average activity durations and discuss possible means for future reduction in activity durations.,Responder
+Deep dive into most-critical non-compliant incidents,Explain the risks resulting from non-compliance. Possibly resolve non-compliance through the activity specifics and the drift between theoretical and practical process.,Analyst
+Report Technical Analysis and most affected categories,"Report technical statistics related to occuring symptoms, affected categories and locations to deduce frequently targeted IT assets and infrastructures ",Analyst

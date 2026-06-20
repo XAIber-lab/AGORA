@@ -1,0 +1,30 @@
+/* GlobalProgress.css */
+
+.global-progress-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.progress-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.operator-name {
+    flex: 0 0 150px;
+    /* Fixed width for the operator name column */
+    text-align: left;
+    font-weight: bold;
+    margin-right: 10px;
+    color: white;
+}
+
+.progress-bar-container {
+    flex: 1;
+}
+
+.progress-bar {
+    width: 100%;
+}

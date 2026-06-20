@@ -1,0 +1,177 @@
+/* Set the reporting container and its parents to full height */
+.reporting-container {
+    width: 84%;
+    height: 100%;
+    /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+
+.aggregated-view {
+    flex: 1;
+    display: flex;
+    height: 100%;
+}
+
+/* Security Controls Section */
+.controls-table-container {
+    flex: 1;
+    max-height: 100%;
+    overflow-y: auto;
+    /* Enable scrolling */
+    margin-top: 10px;
+}
+
+.controls-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+}
+
+.controls-table th,
+.controls-table td {
+    border: 1px solid #333333;
+    padding: 8px;
+    color: #ffffff;
+}
+
+.controls-table th {
+    background-color: #2a2a2a;
+    text-align: left;
+}
+
+.controls-table tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+
+.controls-table tr:nth-child(odd) {
+    background-color: #1e1e1e;
+}
+
+.controls-table tr:hover {
+    background-color: #333333;
+}
+
+.controls-table-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.controls-table-container::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+.controls-table-container::-webkit-scrollbar-thumb {
+    background-color: #444444;
+    border-radius: 5px;
+    border: 2px solid #1e1e1e;
+}
+
+/* Stroke blue for selected row */
+.controls-table tr.selected-row-stroke {
+    border: 2px solid #1a73e8;
+    background-color: transparent;
+}
+
+/* Assessment Results Section */
+.assessment-results-container {
+    flex: 1;
+    max-height: 100%;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.assessment-results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.assessment-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+/* Stroke blue for selected assessment items */
+.assessment-item.selected-stroke {
+    border: 2px solid #1a73e8;
+    padding: 10px;
+}
+
+.assessment-screenshot {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.assessment-id-name {
+    font-weight: bold;
+    color: white;
+}
+
+.assessment-incident-ids-toggle {
+    cursor: pointer;
+    color: #b0b0b0;
+}
+
+.assessment-incident-ids {
+    color: #ffffff;
+    word-wrap: break-word;
+    /* Ensure long words are wrapped */
+    word-break: break-all;
+    /* Break lines at any character */
+    white-space: pre-wrap;
+    /* Maintain formatting and wrap long text */
+    overflow-wrap: break-word;
+    /* Break lines in case of overflow */
+    background-color: #1e1e1e;
+    /* Optional: dark background for incident lists */
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.assessment-control-info,
+.assessment-type {
+    color: #b0b0b0;
+}
+
+/* View header styling */
+.view-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.view-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.view-options {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.export-btn {
+    background: #db0099;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.export-btn:hover {
+    background: #b30080;
+}
